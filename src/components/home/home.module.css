@@ -1,0 +1,10 @@
+.home {
+    min-height: 50vh;
+}
+
+.video {
+    width: 800px;
+    background-color: aquamarine;
+    height: 500px;
+    margin: 0 auto
+}
