@@ -1,0 +1,9 @@
+.video video {
+    width: 500px;
+    height: 700px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}

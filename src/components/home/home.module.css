@@ -2,9 +2,37 @@
     min-height: 50vh;
 }
 
-.video {
-    width: 800px;
-    background-color: aquamarine;
-    height: 500px;
-    margin: 0 auto
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin-left: 5em;
+    padding: 1em;
+    font-size: 1.2em;
+    font-family: cursive;
+    background-color: transparent;
+    border-radius: 15px;
+    ;
+}
+
+.buttons button:first-child {
+    border-color: cadetblue;
+}
+
+.buttons button:last-child {
+    border-color: tomato;
+}
+
+.buttons button:first-child:active {
+    background-color: #d7ffd9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttons button:last-child:active {
+    background-color: rgb(246, 187, 187);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
