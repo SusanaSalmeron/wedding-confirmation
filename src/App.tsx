@@ -13,8 +13,8 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path="/:id/welcome" element={<Home />} />
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/*" element={<Navigate to="/home" />} />
+          <Route path="/" element={<Navigate to="/123/welcome" />} />
+          <Route path="/*" element={<Navigate to="/123/welcome" />} />
           <Route path="/form" element={<OptionsForm />} />
         </Routes>
       </div>

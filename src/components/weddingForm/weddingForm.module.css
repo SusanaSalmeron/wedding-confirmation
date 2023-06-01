@@ -1,0 +1,114 @@
+.wedding {
+    height: 100vh;
+}
+
+.container {
+    background-image: url('../../images/background.jpg');
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em 2em;
+    box-shadow: #666;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(46, 74, 117, 0.55);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(46, 74, 117, 0.55);
+    box-shadow: 10px 10px 30px 0px rgba(46, 74, 117, 0.55);
+}
+
+.form label {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.room {
+    height: 3em;
+}
+
+.room input {
+    margin-left: 20em;
+    transform: scale(1.5);
+}
+
+.menu {
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu label:first-child {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.menu label {
+    font-weight: 400;
+}
+
+.menu input {
+    width: 5%;
+    font-size: large;
+}
+
+.brunch {
+    height: 3em;
+    margin-bottom: 1em;
+}
+
+.brunch input {
+    margin-left: 5em;
+    transform: scale(1.5);
+}
+
+.warning {
+    border-width: medium;
+    padding: 2em;
+    border-radius: 6px;
+
+    box-shadow: inset 3px 3px 3px tomato, inset -2px -2px 3px rgba(103, 38, 27), 2px 2px 10px rgba(103, 38, 27);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .9);
+    text-align: center;
+}
+
+.terms input {
+    margin-left: 18em;
+    transform: scale(1.5);
+}
+
+.terms {
+    margin-top: 2em;
+}
+
+.comment {
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment textarea {
+    width: 70%;
+    margin-top: 2em;
+}
+
+.button {
+    margin-top: 2em;
+}
+
+.button button {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    font-family: cursive;
+    background-color: rgb(156, 180, 167);
+    border-radius: 15px;
+}
+
+.button button:active {
+    background-color: rgb(177, 196, 185);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
