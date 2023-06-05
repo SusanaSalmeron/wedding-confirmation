@@ -1,0 +1,16 @@
+.img {
+    width: 50.3%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img figcaption {
+    text-align: center;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategray;
+}

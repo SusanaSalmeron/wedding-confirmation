@@ -4,6 +4,7 @@ import Home from './components/home/home';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import OptionsForm from './components/weddingForm/weddingForm';
+import InfoMessage from './components/infoMessage/infoMessage';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Navigate to="/123/welcome" />} />
           <Route path="/*" element={<Navigate to="/123/welcome" />} />
           <Route path="/form" element={<OptionsForm />} />
+          <Route path="/message" element={<InfoMessage message="" />} />
         </Routes>
       </div>
       <Footer />

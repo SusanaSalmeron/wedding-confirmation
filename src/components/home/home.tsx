@@ -13,12 +13,16 @@ const Home: FC<HomeProps> = () => {
         navigate('/form')
     }
 
+    const buttonRightHandler = () => {
+        navigate('/message')
+    }
+
     return (
         <div className={styles.home} data-testid="home">
             <VideoIntro />
             <div className={styles.buttons}>
                 <button type="submit" className={styles.left} onClick={buttonLeftHandler}>Vamos a asistir</button>
-                <button className={styles.right}>No vamos a asistir</button>
+                <button type="submit" className={styles.right} onClick={buttonRightHandler}>No vamos a asistir</button>
             </div>
 
         </div>
