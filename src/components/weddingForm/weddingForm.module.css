@@ -23,6 +23,7 @@
 .photo img {
     width: 100%;
     height: 100vh;
+    /* object-fit: cover; */
     box-shadow: #666;
     -webkit-box-shadow: -10px 10px 30px 0px rgba(46, 74, 117, 0.55);
     -moz-box-shadow: -10px 10px 30px 0px rgba(46, 74, 117, 0.55);
@@ -65,6 +66,22 @@
     display: grid;
     grid-template-columns: repeat(6, 2fr);
     margin-top: 1em;
+}
+
+.menu button {
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+    font-family: cursive;
+    background-color: rgb(156, 180, 167);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.menu button button:active {
+    background-color: rgb(177, 196, 185);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .menu input {
@@ -123,15 +140,18 @@
 }
 
 .button {
+    display: flex;
     margin-top: 1em;
 }
 
 .button button {
     padding: 0.5em 1em;
+    margin-right: 1em;
     font-size: 1.2em;
     font-family: cursive;
     background-color: rgb(156, 180, 167);
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .button button:active {

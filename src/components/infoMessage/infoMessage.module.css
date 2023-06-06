@@ -1,7 +1,7 @@
 .img {
-    width: 50.3%;
+    min-height: 56vh;
+    width: 54%;
     margin: 0 auto;
-    background-color: aliceblue;
 }
 
 .img img {
@@ -10,7 +10,7 @@
 
 .img figcaption {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.7em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkslategray;
 }

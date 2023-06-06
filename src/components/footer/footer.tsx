@@ -9,12 +9,12 @@ interface FooterProps { }
 const Footer: FC<FooterProps> = () => {
     return (
         <div className={styles.footer} data-testid="footer">
-            <header className={styles.logo}>
+            <footer className={styles.logo}>
                 <figure>
                     <img src={logo} alt="footer"></img>
                 </figure>
 
-            </header>
+            </footer>
         </div>
     )
 }

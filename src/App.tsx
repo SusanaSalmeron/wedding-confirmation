@@ -16,7 +16,7 @@ function App() {
           <Route path="/:id/welcome" element={<Home />} />
           <Route path="/" element={<Navigate to="/123/welcome" />} />
           <Route path="/*" element={<Navigate to="/123/welcome" />} />
-          <Route path="/form" element={<OptionsForm />} />
+          <Route path="/:id/form" element={<OptionsForm />} />
           <Route path="/message" element={<InfoMessage message="" />} />
         </Routes>
       </div>

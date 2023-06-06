@@ -10,6 +10,7 @@
     "@types/node": "18.0.0",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "@types/react-modal": "3.16.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
@@ -17,7 +18,8 @@
     "web-vitals": "2.1.4",
     "react-router-dom": "6.11.2",
     "react-player": "2.12.0",
-    "formik": "2.4.0"
+    "formik": "2.4.0",
+    "react-modal": "3.16.1"
   },
   "scripts": {
     "start": "react-scripts start",

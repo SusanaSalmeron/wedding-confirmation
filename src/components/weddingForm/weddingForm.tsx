@@ -1,10 +1,13 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import styles from './weddingForm.module.css'
 import { Field, Form, Formik } from "formik";
 import wedding from '../../images/form.jpg';
-import children from '../../images/children.png';
-import vegetarian from '../../images/vegetarian.png';
-import basic from '../../images/basic.png'
+import children from '../../images/child-care-png-42483(1).png';
+import vegetarian from '../../images/plant-icon-34782(1).png';
+import basic from '../../images/fork-and-knife-png-3674(1).png'
+import AddressModal from "../addressModal/addressModal";
+import profile from '../../images/profile.jpeg';
+import ma from '../../images/1.jpg'
 
 
 
@@ -24,7 +27,7 @@ interface Menu {
 
 const initialValues: InitialValues = {
     room: false,
-    menu: [{ value: 0 }],
+    menu: [{}],
     brunch: false,
     comment: ""
 }
@@ -40,7 +43,7 @@ const WeddingForm: FC<WeddingFormProps> = () => {
     return (
         <div className={styles.wedding} data-testid="wedding">
             <figure className={styles.photo} >
-                <img src={wedding} alt="wedding"></img>
+                <img src={ma} alt="wedding"></img>
             </figure>
             <div className={styles.container}>
                 <div className={styles.group}>
@@ -60,7 +63,8 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                         <div className={styles.menuContainer}>
                             <label >Elije menú para cada uno de los asistentes </label>
                             <div className={styles.menu}>
-                                {menus.map((menu, i) => {
+                                <p>Añade menú</p> <button>+</button>
+                                {/* {menus.map((menu, i) => {
                                     return <>
                                         <figure key={i}>
                                             <img src={menu.image} alt={menu.name} className={styles.food} />
@@ -70,7 +74,7 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                                         </Field>
                                     </>
                                 })}
-                            </div>
+ */}                            </div>
                         </div>
                         <div className={styles.brunch}>
                             <label>
@@ -95,6 +99,7 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                         </div>
                         <div className={styles.button}>
                             <button type="submit">Enviar</button>
+                            <AddressModal />
                         </div>
                     </Form>
                 </Formik>

@@ -10,7 +10,7 @@ const Home: FC<HomeProps> = () => {
     const navigate = useNavigate()
 
     const buttonLeftHandler = () => {
-        navigate('/form')
+        navigate('/123/form')
     }
 
     const buttonRightHandler = () => {
@@ -19,7 +19,9 @@ const Home: FC<HomeProps> = () => {
 
     return (
         <div className={styles.home} data-testid="home">
-            <VideoIntro />
+            <div className={styles.video}>
+            </div>
+            {/* <VideoIntro /> */}
             <div className={styles.buttons}>
                 <button type="submit" className={styles.left} onClick={buttonLeftHandler}>Vamos a asistir</button>
                 <button type="submit" className={styles.right} onClick={buttonRightHandler}>No vamos a asistir</button>
