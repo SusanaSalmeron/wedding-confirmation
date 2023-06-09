@@ -19,7 +19,8 @@
     "react-router-dom": "6.11.2",
     "react-player": "2.12.0",
     "formik": "2.4.0",
-    "react-modal": "3.16.1"
+    "react-modal": "3.16.1",
+    "react-multi-select-component": "4.3.4"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,13 +1,9 @@
 import { FC, useState } from "react";
 import styles from './weddingForm.module.css'
 import { Field, Form, Formik } from "formik";
-import wedding from '../../images/form.jpg';
-import children from '../../images/child-care-png-42483(1).png';
-import vegetarian from '../../images/plant-icon-34782(1).png';
-import basic from '../../images/fork-and-knife-png-3674(1).png'
 import AddressModal from "../addressModal/addressModal";
-import profile from '../../images/profile.jpeg';
-import ma from '../../images/1.jpg'
+import photo from '../../images/form.jpg'
+import FoodModal from "../foodModal/foodModal";
 
 
 
@@ -15,35 +11,50 @@ interface WeddingFormProps { }
 
 interface InitialValues {
     room: boolean,
-    menu: [{}],
+    menu: [],
     brunch: boolean,
     comment: string
 }
 
-interface Menu {
+interface MenuView {
     name: string,
     image: string
 }
 
+interface GuestMenu {
+    guestName: string,
+    menuType: string,
+    allergies: string[]
+}
+
 const initialValues: InitialValues = {
     room: false,
-    menu: [{}],
+    menu: [],
     brunch: false,
     comment: ""
 }
 
-const menus: Menu[] = [
+/* const menuViews: MenuView[] = [
     { name: "Principal", image: basic },
     { name: "Infantil", image: children },
     { name: "Veggie", image: vegetarian },
 
-]
+] */
+
 
 const WeddingForm: FC<WeddingFormProps> = () => {
+    const [guestsMenus, setGuestsMenus] = useState<any>([])
+
+    const addMenu = (menu: any) => {
+        let selectedMenus = [...guestsMenus]
+        selectedMenus.push(menu)
+        setGuestsMenus(selectedMenus)
+    }
+
     return (
         <div className={styles.wedding} data-testid="wedding">
             <figure className={styles.photo} >
-                <img src={ma} alt="wedding"></img>
+                <img src={photo} alt="wedding"></img>
             </figure>
             <div className={styles.container}>
                 <div className={styles.group}>
@@ -63,18 +74,9 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                         <div className={styles.menuContainer}>
                             <label >Elije menú para cada uno de los asistentes </label>
                             <div className={styles.menu}>
-                                <p>Añade menú</p> <button>+</button>
-                                {/* {menus.map((menu, i) => {
-                                    return <>
-                                        <figure key={i}>
-                                            <img src={menu.image} alt={menu.name} className={styles.food} />
-                                            <figcaption>{menu.name}</figcaption>
-                                        </figure>
-                                        <Field key={i} id={i} type="number" min={0} max={2} name={"menu" + i}>
-                                        </Field>
-                                    </>
-                                })}
- */}                            </div>
+                                <p>Añade menú</p> <FoodModal callback={addMenu} />
+                                {JSON.stringify(guestsMenus)}
+                            </div>
                         </div>
                         <div className={styles.brunch}>
                             <label>

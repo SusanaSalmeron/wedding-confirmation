@@ -1,0 +1,150 @@
+.close {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    color: darkslategray;
+}
+
+.button {
+    position: fixed;
+    top: -1.3em;
+    right: 1em;
+    margin: 2em auto;
+    background: #778d83;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color: #000;
+    cursor: pointer;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow .15s, transform .15s;
+    font-size: 1.5em;
+}
+
+.menu {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    background-color: #b1cec1;
+    transform: translate(-50%, -45%);
+    border: 1px solid #ccc;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    width: 1000px;
+    height: 800px;
+}
+
+
+.form {
+    margin-left: 2em;
+}
+
+
+.guest {
+    margin-bottom: 2em;
+}
+
+.guest label {
+    margin-right: 2em;
+}
+
+
+.foodContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    margin: 2em 0;
+}
+
+.foodContainer input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.item {
+    text-align: center;
+}
+
+input[type=radio]+label>img {
+    transition: 500ms all;
+}
+
+.foodContainer input[type="radio"]:checked+label>img {
+    transform:
+        rotateZ(-20deg) rotateX(20deg);
+    filter: invert()
+}
+
+.foodContainer input[type="radio"]:focus+label>img {
+
+    padding: 0.3em
+}
+
+
+
+.foodContainer img {
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+.allergyContainer {
+    margin-bottom: 2em;
+    width: 30%;
+    text-align: center;
+}
+
+.allergies {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    align-items: end;
+    margin-top: 1em;
+}
+
+.allergy {
+    width: 100%;
+}
+
+.allergies input {
+    margin-left: 8em;
+}
+
+.send button {
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+    font-family: cursive;
+    background-color: rgb(156, 180, 167);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.send button:active {
+    background-color: rgb(177, 196, 185);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* @media(max-width: 576px) {
+    .reviews {
+        width: 400px;
+        height: 550px;
+        background-position: bottom;
+    }
+}
+
+@media(max-width: 480px) {
+    .reviews {
+        width: 350px;
+        height: 500px;
+        background-position: bottom;
+    }
+} */
