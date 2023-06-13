@@ -1,14 +1,14 @@
 import { FC, useState } from "react";
 import ReactModal from 'react-modal';
 import styles from './foodModal.module.css'
-import { Field, Form, Formik } from "formik";
+import { Field, Form, Formik, ErrorMessage } from "formik";
 import images from '../../utils';
+import ValidationFormForModalForm from "../../formValidations/validateModalForm";
 
 
 interface FoodModalProps {
     callback: Function
 }
-
 
 interface GuestMenu {
     guestName: string,
@@ -54,7 +54,6 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [allergiesState, setAllergiesState] = useState(new Array(allergies.length).fill(false))
 
-
     const toggleModal = () => {
         setIsOpen(!isOpen)
         setAllergiesState(new Array(allergies.length).fill(false))
@@ -99,14 +98,21 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                     <div className={styles.close}>
                         <Formik
                             initialValues={initialValues}
-                            onSubmit={handleSubmit}>
-                            {({ values, handleBlur, handleChange }) => (
+                            onSubmit={handleSubmit}
+                            validationSchema={ValidationFormForModalForm}>
+                            {({ values, handleBlur, handleChange, isSubmitting, isValid, dirty }) => (
                                 <Form className={styles.form}>
                                     <div className={styles.guest}>
                                         <label>Nombre:
                                         </label>
-                                        <Field name="guestName"></Field>
+                                        < Field name="guestName" />
+                                        <ErrorMessage
+                                            className={styles.error}
+                                            name='guestName'
+                                            component="small"
+                                        />
                                     </div>
+
                                     <h4>Elije un menú:</h4>
                                     <div className={styles.foodContainer}>
                                         {menuNames.map((name, i) => (
@@ -129,6 +135,11 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                             </div>
                                         ))}
                                     </div>
+                                    <ErrorMessage
+                                        className={styles.error2}
+                                        name='menuType'
+                                        component="small"
+                                    />
                                     <h4>Marca tus intolerancias o alergias:</h4>
                                     <div className={styles.allergies}>
                                         {allergies.map((allergy, i) => {
@@ -144,19 +155,23 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                                         checked={allergiesState[i]}
                                                         onChange={() => handleOnChange(i)}
                                                     />
-
                                                     <figcaption>{allergy.name}</figcaption>
                                                 </div>
                                             </>
                                         })}
                                     </div>
                                     <div className={styles.send}>
-                                        <button >Añadir</button>
+                                        <button
+                                            disabled={!isValid || !dirty || isSubmitting}
+                                        >Añadir</button>
                                     </div>
                                 </Form>
                             )}
                         </Formik>
-                        <button className={styles.button} onClick={toggleModal}>X</button>
+                        <button
+                            className={styles.button}
+                            onClick={toggleModal}
+                        >X</button>
                     </div>
                 </ReactModal >
             </div >

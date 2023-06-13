@@ -30,18 +30,20 @@
     transform: translate(-50%, -45%);
     border: 1px solid #ccc;
     overflow: auto;
-    border-radius: 4px;
+    border-radius: 10px;
     outline: none;
     padding: 20px;
     width: 1000px;
     height: 800px;
 }
 
-
 .form {
     margin-left: 2em;
 }
 
+.form h4 {
+    margin-top: 2em;
+}
 
 .guest {
     margin-bottom: 2em;
@@ -51,11 +53,10 @@
     margin-right: 2em;
 }
 
-
 .foodContainer {
     display: grid;
     grid-template-columns: repeat(6, 2fr);
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 .foodContainer input[type="radio"] {
@@ -73,28 +74,17 @@ input[type=radio]+label>img {
 }
 
 .foodContainer input[type="radio"]:checked+label>img {
-    transform:
-        rotateZ(-20deg) rotateX(20deg);
+    transform: rotateZ(-20deg) rotateX(20deg);
     filter: invert()
 }
 
 .foodContainer input[type="radio"]:focus+label>img {
-
     padding: 0.3em
 }
-
-
 
 .foodContainer img {
     width: 70%;
 }
-
-
-
-
-
-
-
 
 .allergyContainer {
     margin-bottom: 2em;
@@ -131,6 +121,20 @@ input[type=radio]+label>img {
     background-color: rgb(177, 196, 185);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+.error {
+    width: 50%;
+    color: red;
+    font-size: 1.2em;
+    margin-left: 2em;
+    margin-top: -4em;
+}
+
+.error2 {
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 2em;
 }
 
 /* @media(max-width: 576px) {
