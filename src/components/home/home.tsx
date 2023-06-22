@@ -1,20 +1,29 @@
 import React, { FC } from 'react';
 import styles from './home.module.css';
 import VideoIntro from '../videoIntro/videoIntro';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+import { deleteGuest } from '../../services/attendants';
 /* import wedding from '../../media/wedding.mp4' */
 
 interface HomeProps { }
 
+interface GroupParams {
+    id: string
+}
+
 const Home: FC<HomeProps> = () => {
     const navigate = useNavigate()
+    const { id } = useParams<keyof GroupParams>() as GroupParams
 
     const buttonLeftHandler = () => {
-        navigate('/123/form')
+        navigate(`/${id}/form`)
     }
 
-    const buttonRightHandler = () => {
-        navigate('/message')
+    const buttonRightHandler = async () => {
+        /* const groupDeleted = await deleteGuest(id)
+        if (groupDeleted) {
+            navigate('/message')
+        } */
     }
 
     return (
@@ -23,8 +32,8 @@ const Home: FC<HomeProps> = () => {
             </div>
             {/* <VideoIntro /> */}
             <div className={styles.buttons}>
-                <button type="submit" className={styles.left} onClick={buttonLeftHandler}>Vamos a asistir</button>
-                <button type="submit" className={styles.right} onClick={buttonRightHandler}>No vamos a asistir</button>
+                <button type="button" className={styles.left} onClick={buttonLeftHandler}>Vamos a asistir</button>
+                <button type="button" className={styles.right} onClick={buttonRightHandler}>No vamos a asistir</button>
             </div>
 
         </div>

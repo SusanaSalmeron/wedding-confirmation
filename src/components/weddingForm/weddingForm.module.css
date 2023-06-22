@@ -6,12 +6,14 @@
     grid-template-columns: 1fr 1fr;
     color: darkslategray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
 }
 
 .container {
     background-color: #b1cec1;
     width: 100%;
     height: 100vh;
+    overflow-x: scroll;
     margin: 0 auto;
     padding: 2em 2em 0 2em;
     box-shadow: #666;
@@ -37,7 +39,7 @@
 .group {
     display: flex;
     justify-content: space-around;
-    height: 4em;
+    height: 3em;
     width: 100%;
     margin: 0 auto;
 }
@@ -47,7 +49,7 @@
 }
 
 .room input {
-    margin-left: 16em;
+    margin-left: 18em;
     transform: scale(1.5);
 }
 
@@ -149,7 +151,7 @@
 
 .comment,
 .bso {
-    height: 11em;
+    height: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -160,14 +162,9 @@
     margin-top: 2em;
 }
 
-.comment textarea,
-.bso textarea {
-    margin-top: 1em;
-}
-
 .button {
     display: flex;
-    margin-top: 1em;
+    margin: 1em 0;
 }
 
 .button button,

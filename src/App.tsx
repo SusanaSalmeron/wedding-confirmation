@@ -14,10 +14,12 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path="/:id/welcome" element={<Home />} />
-          <Route path="/" element={<Navigate to="/123/welcome" />} />
-          <Route path="/*" element={<Navigate to="/123/welcome" />} />
+          <Route path="/" element={<Navigate to="/:id/welcome" />} />
+          <Route path="/*" element={<Navigate to="/:id/welcome" />} />
           <Route path="/:id/form" element={<OptionsForm />} />
-          <Route path="/message" element={<InfoMessage message="" />} />
+          <Route path="/message" element={<InfoMessage message="" image="" alt="" />} />
+          <Route path="/notFound" element={<InfoMessage message="Este grupo de asistentes no existe" image="https://media.giphy.com/media/3K0D1Dkqh9MOmLSjzW/giphy.gif" alt="destruction" />} />
+          <Route path="/congrats" element={<InfoMessage message="Gracias por indicarnos que vas/vais a asistir" image="https://media.giphy.com/media/jd6TVgsph6w7e/giphy.gif" alt="happy" />} />
         </Routes>
       </div>
       <Footer />

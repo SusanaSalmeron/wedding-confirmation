@@ -2,6 +2,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2em;
     color: darkslategray;
+    font-weight: 800;
 }
 
 .button {
@@ -24,7 +25,7 @@
 
 .menu {
     position: fixed;
-    top: 45%;
+    top: 43%;
     left: 50%;
     background-color: #b1cec1;
     transform: translate(-50%, -45%);
@@ -34,23 +35,26 @@
     outline: none;
     padding: 20px;
     width: 1000px;
-    height: 800px;
+    height: 850px;
 }
 
 .form {
     margin-left: 2em;
 }
 
-.form h4 {
-    margin-top: 2em;
-}
-
-.guest {
-    margin-bottom: 2em;
+.title {
+    margin-top: 1.2em;
+    font-size: 1.3em;
 }
 
 .guest label {
     margin-right: 2em;
+    font-size: 1.3em;
+}
+
+.guest input {
+    height: 2em;
+    width: 30%
 }
 
 .foodContainer {
@@ -105,6 +109,7 @@ input[type=radio]+label>img {
 
 .allergies input {
     margin-left: 8em;
+    transform: scale(1.5);
 }
 
 .send button {
@@ -134,6 +139,10 @@ input[type=radio]+label>img {
 .error2 {
     color: red;
     font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.mandatory {
     margin-bottom: 2em;
 }
 

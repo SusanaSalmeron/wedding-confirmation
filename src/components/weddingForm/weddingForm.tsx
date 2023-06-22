@@ -4,15 +4,17 @@ import { Field, Form, Formik } from "formik";
 import AddressModal from "../addressModal/addressModal";
 import photo from '../../images/form.jpg'
 import FoodModal from "../foodModal/foodModal";
+import { getAttendantGroup, updateGuest } from "../../services/attendants";
+import { useNavigate, useParams } from "react-router-dom";
 
 interface WeddingFormProps { }
 
 interface InitialValues {
+    menus: [],
     room: boolean,
-    menu: [],
     brunch: boolean,
+    songlist: string
     comment: string,
-    songs: []
 }
 
 interface MenuView {
@@ -26,17 +28,35 @@ interface GuestMenu {
     allergies: string[]
 }
 
+interface GroupParams {
+    id: string
+}
+
 const initialValues: InitialValues = {
+    menus: [],
     room: false,
-    menu: [],
     brunch: false,
-    comment: "",
-    songs: []
+    songlist: "",
+    comment: ""
 }
 
 const WeddingForm: FC<WeddingFormProps> = () => {
     const [guestsMenus, setGuestsMenus] = useState<any>([])
-    const totalGuests: number = 2
+    const [group, setGroup] = useState<any>({})
+    const totalGuests: number = group.size
+    const { id } = useParams<keyof GroupParams>() as GroupParams
+    const navigate = useNavigate()
+
+    useEffect(() => {
+        getAttendantGroup(id)
+            .then(response => {
+                if (response === 410) {
+                    navigate('/notFound')
+                } else {
+                    setGroup(response)
+                }
+            })
+    }, [id, navigate, guestsMenus])
 
     const addMenu = (menu: any) => {
         let selectedMenus = [...guestsMenus]
@@ -51,21 +71,13 @@ const WeddingForm: FC<WeddingFormProps> = () => {
         setGuestsMenus(AllSelectedMenus)
     }
 
-    const submitForm = (values: InitialValues) => {
-        console.log({
-            room: values.room,
-            menu: guestsMenus,
-            brunch: values.brunch,
-            comment: values.comment,
-            songs: values.songs
+    const submitForm = async (values: InitialValues) => {
+        const { room, brunch, songlist, comment } = values
+        const isFormSended = await updateGuest(id, guestsMenus, room, brunch, songlist, comment)
+        if (isFormSended) {
+            navigate('/congrats')
         }
-        )
     }
-
-    useEffect(() => {
-
-    }, [guestsMenus])
-
 
     return (
         <div className={styles.wedding} data-testid="wedding">
@@ -74,20 +86,24 @@ const WeddingForm: FC<WeddingFormProps> = () => {
             </figure>
             <div className={styles.container}>
                 <div className={styles.group}>
-                    <h3>Hola Susana,Rubén</h3>
-                    <h3>Nº Personas: 2</h3>
+                    <h3>Hola {group.group}</h3>
+                    <h3>Nº Personas: {group.size}</h3>
                 </div>
                 <Formik
                     initialValues={initialValues}
                     onSubmit={submitForm}>
                     <Form className={styles.form}>
-                        <div className={styles.room}>
+                        {totalGuests === 1 ? <div className={styles.room}>
+                            <label>¿Necesitas alojamiento?
+                                <Field type="checkbox" name="room" />
+                            </label>
+                        </div> : <div className={styles.room}>
                             <label>¿Necesitáis alojamiento?
                                 <Field type="checkbox" name="room" />
                             </label>
-                        </div>
+                        </div>}
                         <div className={styles.menuContainer}>
-                            <label >Elije menú para cada uno de los asistentes </label>
+                            {totalGuests === 1 ? <label >* Elije menú</label> : <label >* Elije menú para cada uno de los asistentes </label>}
                             {guestsMenus.length !== totalGuests ? <div className={styles.menu}>
                                 <p>Añade menú</p> <FoodModal callback={addMenu} />
                             </div> : null}
@@ -109,23 +125,38 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                                 )) : null}
                             </div>
                         </div>
-                        <div className={styles.brunch}>
-                            <label>
-                                ¿Os vais a quedar al brunch del 8 de octubre?
-                                <Field type="checkbox" name="brunch" />
-                            </label>
-                        </div>
-                        <div className={styles.bso}>
-                            <label>Ayúdadnos a construir una banda sonora para la boda con aquellas canciones que sean vuestras favoritas:</label>
-                            <Field as="textarea" name="songs" rows="6" placeholder="Ejemplos:
+                        {
+                            totalGuests === 1 ? <><div className={styles.brunch}>
+                                <label>
+                                    ¿Te vas a quedar al brunch del 8 de octubre?
+                                    <Field type="checkbox" name="brunch" />
+                                </label>
+                            </div>
+                                <div className={styles.bso}>
+                                    <label>Ayúdanos a construir una banda sonora para la boda con aquellas canciones que sean tus favoritas:</label>
+                                    <Field as="textarea" name="songlist" rows="6" placeholder="Ejemplos:
                             Alejandro Sanz: ¿Y Si Fuera ella? / 
                             Star Wars: La Marcha Imperial" />
-                        </div>
+                                </div>
+                            </> : <><div className={styles.brunch}>
+                                <label>
+                                    ¿Os vais a quedar al brunch del 8 de octubre?
+                                    <Field type="checkbox" name="brunch" />
+                                </label>
+                            </div>
+                                <div className={styles.bso}>
+                                    <label>Ayúdadnos a construir una banda sonora para la boda con aquellas canciones que sean vuestras favoritas:</label>
+                                    <Field as="textarea" name="songlist" rows="6" placeholder="Ejemplos:
+                            Alejandro Sanz: ¿Y Si Fuera ella? / 
+                            Star Wars: La Marcha Imperial" />
+                                </div>
+                            </>
+                        }
                         <div className={styles.comment}>
                             <label>Comentarios adicionales:</label>
                             <Field as="textarea" name="comment" rows="6" placeholder="Si se necesita alguna dieta especial por intoleracias o alergias, o cualquier otra observación que no haya sido contemplada en este formulario, aquí puedes reflejarlo para que se tenga en cuenta" />
                         </div>
-
+                        <div className={styles.mandatory}><p>* El campo menú es obligatorio</p></div>
                         <div className={styles.button}>
                             <button
                                 disabled={guestsMenus.length !== totalGuests}

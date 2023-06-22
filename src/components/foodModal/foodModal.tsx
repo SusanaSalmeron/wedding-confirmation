@@ -29,7 +29,6 @@ const menuPics: any = {
 
 const menuNames: string[] = ["Principal", "Infantil", "Veggie"]
 
-
 const initialValues: any = {
     guestName: "",
     menuType: "",
@@ -57,10 +56,9 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
     const toggleModal = () => {
         setIsOpen(!isOpen)
         setAllergiesState(new Array(allergies.length).fill(false))
-
     }
 
-    const handleSubmit = async (values: any, actions: any) => {
+    const menuHandleSubmit = async (values: any, actions: any) => {
         const guestSelection = []
         for (let i = 0; i < allergiesState.length; i++) {
             if (allergiesState[i] === true) {
@@ -88,7 +86,7 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
     return (
         <>
             <div className={styles.container}>
-                <button onClick={toggleModal}>+</button>
+                <button type="button" onClick={toggleModal}>+</button>
                 <ReactModal
                     isOpen={isOpen}
                     onRequestClose={toggleModal}
@@ -98,14 +96,17 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                     <div className={styles.close}>
                         <Formik
                             initialValues={initialValues}
-                            onSubmit={handleSubmit}
+                            onSubmit={menuHandleSubmit}
                             validationSchema={ValidationFormForModalForm}>
                             {({ values, handleBlur, handleChange, isSubmitting, isValid, dirty }) => (
                                 <Form className={styles.form}>
                                     <div className={styles.guest}>
-                                        <label>Nombre:
+                                        <label>* Nombre:
                                         </label>
-                                        < Field name="guestName" />
+                                        < Field
+                                            name="guestName"
+                                            placeholder="Ejemplo: Luke Skywalker"
+                                        />
                                         <ErrorMessage
                                             className={styles.error}
                                             name='guestName'
@@ -113,7 +114,7 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                         />
                                     </div>
 
-                                    <h4>Elije un menú:</h4>
+                                    <h4 className={styles.title}>* Elije un menú:</h4>
                                     <div className={styles.foodContainer}>
                                         {menuNames.map((name, i) => (
                                             <div key={i} className={styles.item}>
@@ -140,7 +141,7 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                         name='menuType'
                                         component="small"
                                     />
-                                    <h4>Marca tus intolerancias o alergias:</h4>
+                                    <h4 className={styles.title}>Marca tus intolerancias o alergias:</h4>
                                     <div className={styles.allergies}>
                                         {allergies.map((allergy, i) => {
 
@@ -160,6 +161,7 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                             </>
                                         })}
                                     </div>
+                                    <div className={styles.mandatory}><p>* Los campos nombre y menú son obligatorios</p></div>
                                     <div className={styles.send}>
                                         <button
                                             disabled={!isValid || !dirty || isSubmitting}
@@ -169,6 +171,7 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                             )}
                         </Formik>
                         <button
+                            type="button"
                             className={styles.button}
                             onClick={toggleModal}
                         >X</button>
