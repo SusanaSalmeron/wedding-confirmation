@@ -1,11 +1,11 @@
 .footer {
     position: relative;
-    height: auto;
+    height: 172px;
     bottom: 0px;
     right: 0px;
-    left: 0px
+    left: 0px;
 }
 
 .footer img {
-    width: 15%;
+    width: 11.10%;
 }

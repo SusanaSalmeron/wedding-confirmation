@@ -39,7 +39,7 @@ const allergies: Allergies[] = [
     { name: "Moluscos", image: images.molluscs },
     { name: "F.secos", image: images.nuts },
     { name: "Sulfitos", image: images.sulphites },
-    { name: "Cacahuetes", image: images.peanuts },
+    { name: "Cacahue.", image: images.peanuts },
     { name: "Marisco", image: images.shellfish },
     { name: "Lactosa", image: images.lactose },
     { name: "Pescado", image: images.fish },
@@ -86,7 +86,7 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
     return (
         <>
             <div className={styles.container}>
-                <button type="button" onClick={toggleModal}>+</button>
+                <button className={styles.add} type="button" onClick={toggleModal}>Añadir</button>
                 <ReactModal
                     isOpen={isOpen}
                     onRequestClose={toggleModal}
@@ -105,8 +105,10 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                         </label>
                                         < Field
                                             name="guestName"
-                                            placeholder="Ejemplo: Luke Skywalker"
+                                            placeholder="Ej: Luke Skywalker"
                                         />
+                                    </div>
+                                    <div>
                                         <ErrorMessage
                                             className={styles.error}
                                             name='guestName'
@@ -144,7 +146,6 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                     <h4 className={styles.title}>Marca tus intolerancias o alergias:</h4>
                                     <div className={styles.allergies}>
                                         {allergies.map((allergy, i) => {
-
                                             return <>
                                                 <div className={styles.allergyContainer} key={i}>
                                                     <img className={styles.allergy} src={allergy.image} alt={allergy.name} />
@@ -163,7 +164,7 @@ const FoodModal: FC<FoodModalProps> = ({ callback }) => {
                                     </div>
                                     <div className={styles.mandatory}><p>* Los campos nombre y menú son obligatorios</p></div>
                                     <div className={styles.send}>
-                                        <button
+                                        <button type="submit"
                                             disabled={!isValid || !dirty || isSubmitting}
                                         >Añadir</button>
                                     </div>

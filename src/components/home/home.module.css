@@ -1,17 +1,18 @@
 .home {
-    min-height: 54.6vh;
+    height: 67.4vh;
 }
 
 .video {
     width: 500px;
-    height: 600px;
+    height: 525px;
     background-color: aliceblue;
     margin: 0 auto;
+    z-index: 9999;
 }
 
 .buttons {
     display: flex;
-    margin-top: 1em;
+    margin: 1em;
     justify-content: center;
 }
 
@@ -22,6 +23,7 @@
     font-family: cursive;
     background-color: transparent;
     border-radius: 15px;
+    z-index: 3;
 }
 
 .buttons button:first-child {
@@ -44,3 +46,55 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+@media (max-width: 1199.98px) {
+    .video {
+        width: 450px;
+        height: 550px;
+        background-color: aliceblue;
+        margin: 0 auto;
+    }
+
+    .buttons button {
+        margin-left: 3em;
+        padding: 0.5em;
+        font-size: 1.2em;
+        font-family: cursive;
+        background-color: transparent;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 1441.98px) {
+    .home {
+        min-height: 60vh;
+    }
+
+    .buttons {
+        margin-top: 4em;
+    }
+}
+
+@media (max-width: 1199px) {
+    .home {
+        min-height: 73vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .home {
+        min-height: 77vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .home {
+        min-height: 80vh;
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {}

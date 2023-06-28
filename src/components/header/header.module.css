@@ -1,9 +1,55 @@
 .header {
-    height: 175px;
+    height: 133px;
     width: 100%;
 }
 
 .logo img {
     float: right;
+    width: 15%;
 
+}
+
+@media (max-width: 1199.98px) {
+    .header {
+        height: 150px;
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+}
+
+@media(max-width:1039px) {
+    .header {
+        height: 100px;
+    }
+
+    .button {
+        margin-top: 1em;
+    }
+
+    .mandatory {
+        margin-top: -1em;
+    }
+}
+
+
+
+@media (max-width: 767.98px) {
+    .header {
+        height: 120px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header {
+        height: 95px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        height: 85px;
+    }
 }

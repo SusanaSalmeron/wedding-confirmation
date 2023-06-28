@@ -13,7 +13,7 @@ const InfoMessage: FC<InfoMessageProps> = (props: InfoMessageProps) => {
         <div className={styles.message}>
             <figure className={styles.img}>
                 <img src={props.image ? props.image : "https://media.giphy.com/media/l2JJKs3I69qfaQleE/giphy.gif"} alt={props.alt ? props.alt : "jedi"} />
-                <figcaption>{props.message ? props.message : "Gracias por contestar. Esta no es la boda que estás buscando."}</figcaption>
+                <figcaption>{props.message ? props.message : "Este grupo ya ha indicado su elección."}</figcaption>
             </figure>
         </div>
     )

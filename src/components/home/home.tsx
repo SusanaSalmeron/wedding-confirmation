@@ -1,8 +1,8 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 import styles from './home.module.css';
 import VideoIntro from '../videoIntro/videoIntro';
 import { useNavigate, useParams } from 'react-router-dom';
-import { deleteGuest } from '../../services/attendants';
+import { deleteGuest, getAttendantGroup } from '../../services/attendants';
 /* import wedding from '../../media/wedding.mp4' */
 
 interface HomeProps { }
@@ -20,11 +20,25 @@ const Home: FC<HomeProps> = () => {
     }
 
     const buttonRightHandler = async () => {
-        /* const groupDeleted = await deleteGuest(id)
+        console.log("hola")
+        const groupDeleted = await deleteGuest(id)
+        console.log(groupDeleted)
         if (groupDeleted) {
-            navigate('/message')
-        } */
+            navigate('/thanks')
+        }
     }
+
+    useEffect(() => {
+        getAttendantGroup(id)
+            .then(response => {
+                if (response === 410) {
+                    navigate('/message')
+                }
+                if (response === 404) {
+                    navigate('/notFound')
+                }
+            })
+    })
 
     return (
         <div className={styles.home} data-testid="home">

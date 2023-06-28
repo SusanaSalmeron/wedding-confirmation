@@ -12,6 +12,8 @@ export async function getAttendantGroup(id: string) {
     } catch (err: any) {
         if (err.response?.status === 410) {
             attendantGroup = err.response.status
+        } else if (err.response?.status === 404) {
+            attendantGroup = err.response.status
         } else {
             console.log('Error when getting attendant group', err.message)
         }
@@ -40,8 +42,7 @@ export async function updateGuest(id: string, menus: [], room: boolean, brunch: 
 export async function deleteGuest(id: string) {
     try {
         console.log(id)
-        const response = await axios.delete(`${groupUrl}/${id}`, getHeaders())
-        console.log(response)
+        await axios.delete(`${groupUrl}/${id}`, getHeaders())
         return true
     } catch (err) {
         console.log(err)

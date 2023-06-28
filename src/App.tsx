@@ -20,6 +20,7 @@ function App() {
           <Route path="/message" element={<InfoMessage message="" image="" alt="" />} />
           <Route path="/notFound" element={<InfoMessage message="Este grupo de asistentes no existe" image="https://media.giphy.com/media/3K0D1Dkqh9MOmLSjzW/giphy.gif" alt="destruction" />} />
           <Route path="/congrats" element={<InfoMessage message="Gracias por indicarnos que vas/vais a asistir" image="https://media.giphy.com/media/jd6TVgsph6w7e/giphy.gif" alt="happy" />} />
+          <Route path="/thanks" element={<InfoMessage message="Gracias por indicarnos que no vais a asistir" image="https://media.giphy.com/media/l1uggWFeBZ47ZSGre/giphy.gif" alt="bye" />} />
         </Routes>
       </div>
       <Footer />
