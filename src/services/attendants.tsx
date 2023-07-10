@@ -1,13 +1,12 @@
 import axios from 'axios';
 import { getHeaders } from './clientUtils';
 
-const groupUrl = "https://o048u36pvi.execute-api.eu-central-1.amazonaws.com/dev/v1/guests"
-
+const groupUrl = process.env.REACT_APP_GUESTS_API_URL
 
 export async function getAttendantGroup(id: string) {
     let attendantGroup = null
     try {
-        const response = await axios.get(`${groupUrl}/${id}`, getHeaders())
+        const response = await axios.get(`${groupUrl}/guests/${id}`, getHeaders())
         attendantGroup = response.data
     } catch (err: any) {
         if (err.response?.status === 410) {
@@ -31,7 +30,7 @@ export async function updateGuest(id: string, menus: [], room: boolean, brunch: 
             songlist,
             comment
         }
-        await axios.put(`${groupUrl}/${id}`, body, getHeaders())
+        await axios.put(`${groupUrl}/guests/${id}`, body, getHeaders())
         return true
     } catch (err) {
         console.log('Error', err)
@@ -42,7 +41,7 @@ export async function updateGuest(id: string, menus: [], room: boolean, brunch: 
 export async function deleteGuest(id: string) {
     try {
         console.log(id)
-        await axios.delete(`${groupUrl}/${id}`, getHeaders())
+        await axios.delete(`${groupUrl}/guests/${id}`, getHeaders())
         return true
     } catch (err) {
         console.log(err)
