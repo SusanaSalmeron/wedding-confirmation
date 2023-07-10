@@ -3,7 +3,6 @@ import styles from './home.module.css';
 import VideoIntro from '../videoIntro/videoIntro';
 import { useNavigate, useParams } from 'react-router-dom';
 import { deleteGuest, getAttendantGroup } from '../../services/attendants';
-/* import wedding from '../../media/wedding.mp4' */
 
 interface HomeProps { }
 
@@ -20,7 +19,6 @@ const Home: FC<HomeProps> = () => {
     }
 
     const buttonRightHandler = async () => {
-        console.log("hola")
         const groupDeleted = await deleteGuest(id)
         console.log(groupDeleted)
         if (groupDeleted) {
@@ -43,13 +41,12 @@ const Home: FC<HomeProps> = () => {
     return (
         <div className={styles.home} data-testid="home">
             <div className={styles.video}>
+                <VideoIntro />
             </div>
-            {/* <VideoIntro /> */}
             <div className={styles.buttons}>
                 <button type="button" className={styles.left} onClick={buttonLeftHandler}>Vamos a asistir</button>
-                <button type="button" className={styles.right} onClick={buttonRightHandler}>No vamos a asistir</button>
+                <button type="button" className={styles.right} onClick={buttonRightHandler}>No asistiremos</button>
             </div>
-
         </div>
     )
 }

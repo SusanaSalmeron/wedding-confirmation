@@ -1,12 +1,11 @@
 .wedding {
-    height: 101vh;
     width: 85%;
-    margin: 0 0 3em 6.5em;
+    margin: 0 auto 3em 6.5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: darkslategray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .container {
@@ -14,7 +13,6 @@
     width: 100%;
     height: 100vh;
     overflow-x: scroll;
-    margin: 0 auto;
     padding: 2em 2em 0 2em;
     box-shadow: #666;
     -webkit-box-shadow: 10px 10px 30px 0px rgba(46, 74, 117, 0.55);
@@ -25,6 +23,7 @@
 .photo img {
     max-width: 100%;
     height: 100vh;
+    margin: 0 auto;
     box-shadow: #666;
     -webkit-box-shadow: -10px 10px 30px 0px rgba(46, 74, 117, 0.55);
     -moz-box-shadow: -10px 10px 30px 0px rgba(46, 74, 117, 0.55);
@@ -42,6 +41,17 @@
     justify-content: space-between;
     height: 3em;
     width: 100%;
+    font-size: 1.3em;
+}
+
+.group img {
+    margin-left: 1em;
+    width: 20%;
+    height: 60%;
+}
+
+.patata {
+    display: flex;
 }
 
 .room {
@@ -55,12 +65,7 @@
 }
 
 .menuContainer {
-    min-height: 8em;
-}
-
-.menuContainer label:first-child {
-    margin-bottom: 1em;
-    font-weight: bold;
+    min-height: 2em;
 }
 
 .menu {
@@ -70,28 +75,9 @@
     width: 50%;
 }
 
-
-.menu button {
-    padding: 0.5em 2em;
-    margin-right: 1em;
-    margin-top: 1em;
-    font-size: 1em;
-    font-family: cursive;
-    background-color: rgb(156, 180, 167);
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.menu button button:active {
-    background-color: rgb(177, 196, 185);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
 .guestContainer {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr;
-    margin-top: 1em;
     align-items: baseline;
 }
 
@@ -110,7 +96,7 @@
 
 .guest {
     font-size: 1.5em;
-    width: 96%;
+    width: 100%;
     margin: 1em 1em 0 0;
     text-align: center;
     color: white;
@@ -129,17 +115,15 @@
     width: auto;
     color: white;
     border: 1px solid black;
-    font-size: 1em;
-    font-weight: 800;
+    font-size: 0.7em;
     background-color: rgb(101, 157, 157);
     top: 1.5em;
-    right: -1.5em;
+    right: 0em;
 }
 
 .guest:hover .tooltip {
     visibility: visible;
 }
-
 
 .brunch {
     height: 3em;
@@ -164,12 +148,18 @@
 .bso textarea {
     width: 100%;
     margin-top: 2em;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .button {
     display: flex;
+    justify-content: space-between;
     margin: 1em 0;
+    align-items: baseline;
+}
+
+.button button {
+    margin-bottom: 1em;
 }
 
 .button button,
@@ -177,7 +167,8 @@
     padding: 0.5em 1em;
     margin-right: 1em;
     font-size: 1.2em;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategray;
     background-color: rgb(156, 180, 167);
     border-radius: 15px;
     cursor: pointer;
@@ -202,34 +193,86 @@
     transform: none;
 }
 
+
 @media (max-width: 1441.98px) {
     .wedding {
         font-size: 1.1em;
     }
 
+    .brunch {
+        height: 3em;
+        margin: 1em 0 0 0;
+    }
+
+    .brunch input {
+        float: right;
+        margin-top: 0.4em;
+        transform: scale(1.5);
+    }
+
+    .comment textarea,
+    .bso textarea {
+        margin-top: 1em;
+    }
+
     .button {
-        margin-top: 3em;
+        margin: 1em 0 0 0;
+    }
+
+    .credit {
+        font-size: 0.8em;
     }
 }
 
 @media (max-width: 1236px) {
     .wedding {
         font-size: 1em;
+        margin: 0 auto 3em 6em;
+    }
+
+    .patata {
+        margin-bottom: 0.5em
     }
 }
 
 @media(max-width:1039px) {
     .wedding {
         display: block;
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 0 auto 3em auto;
     }
 
-    .button {
-        margin-top: 1em;
+    .group img {
+        height: 80%;
+    }
+
+    .patata {
+        margin-bottom: 0
+    }
+
+    .container {
+        height: auto
+    }
+
+    .group {
+        height: 2em;
+        font-size: 1.1em;
+    }
+
+    .room {
+        height: 3em;
     }
 
     .mandatory {
-        margin-top: -1em;
+        margin-top: 1em
+    }
+
+    .button {
+        margin-top: 2em;
+    }
+
+    .button button {
+        font-size: 1em;
     }
 }
 
@@ -245,28 +288,65 @@
     .button {
         margin-top: 2em;
     }
+
+    .credit {
+        font-size: 0.8;
+    }
+
+    .room input,
+    .brunch input {
+        transform: scale(1.2);
+    }
 }
 
 @media (max-width: 500px) {
     .wedding {
         font-size: 0.8em;
-        height: 82vh;
+        margin-top: 1em;
+        margin-bottom: 4em;
     }
 
-    .container {
-        height: 80vh;
+    .group img {
+        height: 90%;
     }
 
     .brunch {
-
-        margin-bottom: 0;
-    }
-
-    .mandatory {
-        margin-top: -1em;
+        margin-bottom: -1em;
     }
 
     .comment {
-        margin-top: -1em;
+        margin-top: 0.5em;
+    }
+
+    .button {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 400px) {
+    .wedding {
+        font-size: 0.7em;
+    }
+
+    .comment {
+        margin-top: 1em;
+    }
+
+    .room input,
+    .brunch input {
+        transform: scale(1.1);
+    }
+}
+
+
+@media (max-width: 300px) {
+    .wedding {
+        font-size: 0.7em;
+    }
+
+    .room input,
+    .brunch input {
+        margin-top: 0;
+        transform: scale(1.1);
     }
 }

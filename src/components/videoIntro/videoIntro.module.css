@@ -1,9 +1,25 @@
-.video video {
-    width: 500px;
-    height: 700px;
+.video {
+    position: relative;
+    left: 2.5em;
 }
 
-.video {
-    display: flex;
-    justify-content: center;
+.player {
+    position: absolute;
+}
+
+@media(max-width:800px) {
+    .video {
+        padding-top: 5%
+    }
+}
+
+@media(max-width:650px) {
+    .video {
+        position: none;
+        display: flex;
+        justify-content: center;
+        left: 0;
+    }
+
+
 }

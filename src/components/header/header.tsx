@@ -12,7 +12,6 @@ const Header: FC<HeaderProps> = () => {
                 <figure>
                     <img src={logo} alt="header"></img>
                 </figure>
-
             </header>
         </div>
     )

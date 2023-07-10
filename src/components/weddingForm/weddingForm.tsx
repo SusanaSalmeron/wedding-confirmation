@@ -1,12 +1,13 @@
 import { FC, useEffect, useState } from "react";
 import styles from './weddingForm.module.css'
 import { Field, Form, Formik } from "formik";
-import AddressModal from "../addressModal/addressModal";
 import photo from '../../images/form.jpg'
 import FoodModal from "../foodModal/foodModal";
 import { getAttendantGroup, updateGuest } from "../../services/attendants";
 import { useNavigate, useParams } from "react-router-dom";
 import { useMedia } from "../../hooks/useMedia";
+import { images } from '../../utils'
+import Spinner from "../spinner/spinner";
 
 interface WeddingFormProps { }
 
@@ -42,9 +43,10 @@ const initialValues: InitialValues = {
 }
 
 const WeddingForm: FC<WeddingFormProps> = () => {
-    const isMobile = useMedia('(max-width: 1039px)')
+    const isMediumSize = useMedia('(max-width: 1039px)')
     const [guestsMenus, setGuestsMenus] = useState<any>([])
     const [group, setGroup] = useState<any>({})
+    const [loading, setLoading] = useState<boolean>(true)
     const totalGuests: number = group.size
     const { id } = useParams<keyof GroupParams>() as GroupParams
     const navigate = useNavigate()
@@ -57,8 +59,9 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                 } else {
                     setGroup(response)
                 }
+                setLoading(false)
             })
-    }, [id, navigate, guestsMenus])
+    }, [id, navigate, guestsMenus, loading])
 
     const addMenu = (menu: any) => {
         let selectedMenus = [...guestsMenus]
@@ -81,95 +84,104 @@ const WeddingForm: FC<WeddingFormProps> = () => {
         }
     }
 
+
     return (
-        <div className={styles.wedding} data-testid="wedding">
-            {!isMobile ? <figure className={styles.photo} >
-                <img src={photo} alt="wedding"></img>
-            </figure> : null}
-            <div className={styles.container}>
-                <div className={styles.group}>
-                    <h3>Hola {group.group}</h3>
-                    <h3>Nº Personas: {group.size}</h3>
-                </div>
-                <Formik
-                    initialValues={initialValues}
-                    onSubmit={submitForm}>
-                    <Form className={styles.form}>
-                        {totalGuests === 1 ? <div className={styles.room}>
-                            <label>¿Necesitas alojamiento?
-                                <Field type="checkbox" name="room" />
-                            </label>
-                        </div> : <div className={styles.room}>
-                            <label>¿Necesitáis alojamiento?
-                                <Field type="checkbox" name="room" />
-                            </label>
-                        </div>}
-                        <div className={styles.menuContainer}>
-                            {totalGuests === 1 ? <label >* Elije menú</label> : <label >* Elije menú para cada uno de los asistentes </label>}
-                            {guestsMenus.length !== totalGuests ? <div className={styles.menu}>
-                                <FoodModal callback={addMenu} />
-                            </div> : null}
-                            <div className={styles.guestContainer}>
-                                {guestsMenus.length ? guestsMenus.map((menu: any, i: any) => (
-                                    <>
-                                        <div className={styles.guest}>
-                                            <div>{menu?.guestName}</div>
-                                            <div className={styles.tooltip}>Menú: {menu?.menuType}
-                                                <br></br>
-                                                Alergias: {menu?.allergies.length ? menu?.allergies.map((m: any, i: any) => (
-                                                    <p>{m}</p>
-                                                )) : "Ninguna"}</div>
+        <>
+            {loading ? <Spinner /> :
+                <div className={styles.wedding} data-testid="wedding">
+                    {!isMediumSize ? <figure className={styles.photo} >
+                        <img src={photo} alt="wedding"></img>
+                    </figure> : null}
+                    <div className={styles.container}>
+                        <div className={styles.group}>
+                            {group.group === "Mamá" ? <> <h3 className={styles.patata}>Hola {group.group}<img alt="potato" src={images.potato} /></h3></> : <h3>Hola {group.group}</h3>}
+                        </div>
+                        <Formik
+                            initialValues={initialValues}
+                            onSubmit={submitForm}>
+                            <Form className={styles.form}>
+                                {totalGuests === 1 ? <div className={styles.room}>
+                                    <label>¿Necesitas alojamiento?
+                                        <Field type="checkbox" name="room" />
+                                    </label>
+                                </div> : <div className={styles.room}>
+                                    <label>¿Necesitáis alojamiento?
+                                        <Field type="checkbox" name="room" />
+                                    </label>
+                                </div>}
+                                <div className={styles.menuContainer}>
+                                    {totalGuests === 1 ? <label >* Añadir menú</label> : <label >* Añadir menú para aquellas personas que vayan a asistir </label>}
+                                    {guestsMenus.length !== totalGuests ? <div className={styles.menu}>
+                                        <FoodModal callback={addMenu} dataGroup={group} selectedGuests={guestsMenus} />
+                                    </div> : null}
+                                    <div className={styles.guestContainer}>
+                                        {guestsMenus.length ? guestsMenus.map((menu: any, i: any) => (
+                                            <>
+                                                <div className={styles.guest}>
+                                                    <div key={i}>{menu?.guestName}</div>
+                                                    <div className={styles.tooltip}>Menú: {menu?.menuType}
+                                                        <br></br>
+                                                        Alergias: {menu?.allergies.length ? menu?.allergies.map((m: any, i: any) => (
+                                                            <div key={i}>
+                                                                <p >{m}</p>
+                                                            </div>
+                                                        )) : "Ninguna"}</div>
+                                                </div>
+                                                <div className={styles.delete}>
+                                                    <button type="button" onClick={handleDelete} id={i}><i className="fa-solid fa-trash-can"></i></button>
+                                                </div>
+                                            </>
+                                        )) : null}
+                                    </div>
+                                </div>
+                                {
+                                    totalGuests === 1 ? <><div className={styles.brunch}>
+                                        <label>
+                                            ¿Te quedas al brunch del 8 de Octubre?
+                                            <Field type="checkbox" name="brunch" />
+                                        </label>
+                                    </div>
+                                        <div className={styles.bso}>
+                                            <label>Ayúdanos a construir una banda sonora para la boda con aquellas canciones que sean tus favoritas:</label>
+                                            <Field as="textarea" name="songlist" rows="8" placeholder="Ejemplos:
+                            Alejandro Sanz: ¿Y Si Fuera ella? / 
+                            Star Wars: La Marcha Imperial" />
                                         </div>
-                                        <div className={styles.delete}>
-                                            <button type="button" onClick={handleDelete} id={i}><i className="fa-solid fa-trash-can"></i></button>
+                                    </> : <><div className={styles.brunch}>
+                                        <label>
+                                            ¿Os quedáis al brunch del 8/10?
+                                            <Field type="checkbox" name="brunch" />
+                                        </label>
+                                    </div>
+                                        <div className={styles.bso}>
+                                            <label>Ayúdadnos a construir una banda sonora para la boda con aquellas canciones que sean vuestras favoritas:</label>
+                                            <Field as="textarea" name="songlist" rows="8" placeholder="Ejemplos:
+                            Alejandro Sanz: ¿Y Si Fuera ella? / 
+                            Star Wars: La Marcha Imperial" />
                                         </div>
                                     </>
-                                )) : null}
-                            </div>
-                        </div>
-                        {
-                            totalGuests === 1 ? <><div className={styles.brunch}>
-                                <label>
-                                    ¿Te quedas al brunch del 8 de octubre?
-                                    <Field type="checkbox" name="brunch" />
-                                </label>
-                            </div>
-                                <div className={styles.bso}>
-                                    <label>Ayúdanos a construir una banda sonora para la boda con aquellas canciones que sean tus favoritas:</label>
-                                    <Field as="textarea" name="songlist" rows="10" placeholder="Ejemplos:
-                            Alejandro Sanz: ¿Y Si Fuera ella? / 
-                            Star Wars: La Marcha Imperial" />
+                                }
+                                <div className={styles.comment}>
+                                    <label>Comentarios adicionales:</label>
+                                    <Field as="textarea" name="comment" rows="8" placeholder="Si se necesita alguna dieta especial por intoleracias o alergias, o cualquier otra observación que no haya sido contemplada en este formulario, aquí puedes reflejarlo para que se tenga en cuenta" />
                                 </div>
-                            </> : <><div className={styles.brunch}>
-                                <label>
-                                    ¿Os quedáis al brunch del 8 de octubre?
-                                    <Field type="checkbox" name="brunch" />
-                                </label>
-                            </div>
-                                <div className={styles.bso}>
-                                    <label>Ayúdadnos a construir una banda sonora para la boda con aquellas canciones que sean vuestras favoritas:</label>
-                                    <Field as="textarea" name="songlist" rows="10" placeholder="Ejemplos:
-                            Alejandro Sanz: ¿Y Si Fuera ella? / 
-                            Star Wars: La Marcha Imperial" />
+                                <div className={styles.mandatory}><p>* El campo menú es obligatorio</p></div>
+                                <div className={styles.button}>
+                                    <button
+                                        type="submit"
+                                        disabled={guestsMenus.length < 1}
+                                        className={guestsMenus.length === totalGuests ? styles.enabled : styles.disabled}
+                                    >Enviar</button>
+
+                                    {group.group === "Mamá" ? <div className={styles.credit}><a href="https://www.flaticon.com/free-icons/toy" title="toy icons">Toy icons created by Creaticca Creative Agency - Flaticon</a></div>
+                                        : null}
                                 </div>
-                            </>
-                        }
-                        <div className={styles.comment}>
-                            <label>Comentarios adicionales:</label>
-                            <Field as="textarea" name="comment" rows="10" placeholder="Si se necesita alguna dieta especial por intoleracias o alergias, o cualquier otra observación que no haya sido contemplada en este formulario, aquí puedes reflejarlo para que se tenga en cuenta" />
-                        </div>
-                        <div className={styles.mandatory}><p>* El campo menú es obligatorio</p></div>
-                        <div className={styles.button}>
-                            <button
-                                disabled={guestsMenus.length !== totalGuests}
-                                className={guestsMenus.length === totalGuests ? styles.enabled : styles.disabled}
-                            >Enviar</button>
-                            <AddressModal />
-                        </div>
-                    </Form>
-                </Formik>
-            </div>
-        </div>
+                            </Form>
+                        </Formik>
+                    </div>
+                </div>
+            }
+        </>
     )
 }
 

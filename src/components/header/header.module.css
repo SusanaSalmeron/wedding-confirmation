@@ -1,55 +1,39 @@
 .header {
-    height: 133px;
+    height: 132px;
     width: 100%;
 }
 
 .logo img {
     float: right;
-    width: 15%;
-
+    height: 132px
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1236px) {
     .header {
-        height: 150px;
+        height: 110px;
     }
 
     .logo img {
-        width: 25%;
-    }
-
-}
-
-@media(max-width:1039px) {
-    .header {
-        height: 100px;
-    }
-
-    .button {
-        margin-top: 1em;
-    }
-
-    .mandatory {
-        margin-top: -1em;
+        height: 110px
     }
 }
 
-
-
-@media (max-width: 767.98px) {
+@media (max-width:800px) {
     .header {
-        height: 120px;
+        height: 94px;
+    }
+
+    .logo img {
+        height: 94px;
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width:400px) {
     .header {
-        height: 95px;
+        height: 70px;
     }
-}
 
-@media (max-width: 500px) {
-    .header {
-        height: 85px;
+    .logo img {
+        height: 70px;
     }
 }

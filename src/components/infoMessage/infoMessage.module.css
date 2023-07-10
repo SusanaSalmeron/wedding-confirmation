@@ -1,12 +1,11 @@
 .img {
-    height: 67vh;
     width: 54%;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 .img img {
     width: 100%;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .img figcaption {
@@ -14,6 +13,13 @@
     font-size: 2.7em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkslategray;
+}
+
+.link {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    ;
 }
 
 @media (max-width: 1199.98px) {
@@ -54,7 +60,6 @@
     .img figcaption {
         font-size: 2em;
     }
-
 }
 
 @media (max-width: 575.98px) {
@@ -66,5 +71,4 @@
         margin-top: 6em;
         width: 75%;
     }
-
 }
