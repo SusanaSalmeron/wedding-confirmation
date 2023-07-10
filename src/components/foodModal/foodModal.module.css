@@ -1,0 +1,323 @@
+.close {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    color: darkslategray;
+    font-weight: 800;
+}
+
+.button {
+    position: fixed;
+    top: -1.5em;
+    right: 0.7em;
+    margin: 2em auto;
+    background: #778d83;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color: #000;
+    cursor: pointer;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow .15s, transform .15s;
+    font-size: 1.5em;
+}
+
+.add {
+    font-size: 1.2em;
+    padding: 0.3em 1em;
+    margin-top: 0;
+    background-color: rgb(156, 180, 167);
+    color: darkslategray;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add:active {
+    background-color: rgb(177, 196, 185);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.menu {
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    background-color: #b1cec1;
+    transform: translate(-50%, -45%);
+    border: 1px solid #ccc;
+    overflow: scroll;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+    max-width: 900px;
+    min-width: 350px;
+    height: auto;
+}
+
+.form {
+    margin-left: 1em;
+}
+
+.title {
+    margin-top: 1.2em;
+    font-size: 1.3em;
+}
+
+.guest {
+    margin-bottom: 1em;
+}
+
+.guest label {
+    margin-right: 2em;
+    font-size: 1.3em;
+}
+
+.guest select {
+    height: 1.7em;
+    max-width: 42%;
+    min-width: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    color: darkslategray
+}
+
+.foodContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    margin: 1em 4em;
+    gap: 4em;
+}
+
+.foodContainer input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.item {
+    text-align: center;
+}
+
+input[type=radio]+label>img {
+    transition: 500ms all;
+}
+
+.foodContainer input[type="radio"]:checked+label>img {
+    transform: rotateZ(-20deg) rotateX(20deg);
+    filter: invert()
+}
+
+.foodContainer input[type="radio"]:focus+label>img {
+    padding: 0.3em
+}
+
+.foodContainer img {
+    width: 80%;
+}
+
+.allergyContainer {
+    margin-bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.allergies {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    align-items: flex-end;
+    margin: 1em 2em 0 0em;
+}
+
+.allergy {
+    width: 20%;
+}
+
+.allergies input {
+    margin-left: 2em;
+    transform: scale(1.5);
+}
+
+.send button {
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(156, 180, 167);
+    border-radius: 15px;
+    cursor: pointer;
+    color: darkslategray;
+}
+
+.send button:active {
+    background-color: rgb(177, 196, 185);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.send button:disabled {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.error {
+    width: 50%;
+    color: red;
+    font-size: 1.2em;
+}
+
+.error2 {
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.mandatory {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 1199.98px) {
+    .button {
+        top: -1.5em;
+        right: 0.7em;
+        padding: 0.3em 0.5em;
+        font-size: 1.1em;
+    }
+
+    .foodContainer img {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 1.1em;
+    }
+
+    .guest label {
+        font-size: 1.1em;
+    }
+
+    .guest select {
+        height: 1.5em;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .menu {
+        top: 42%;
+    }
+
+    .foodContainer {
+        grid-template-columns: repeat(3, 2fr);
+        width: 90%;
+        margin: 1em 2em;
+    }
+
+    .allergies {
+        margin: 1em 1em 0 1em;
+    }
+
+    .guest select {
+        max-width: 50%;
+        min-width: 30%;
+    }
+
+    .allergies input {
+        transform: scale(1.3);
+    }
+
+    .error {
+        font-size: 1em;
+    }
+
+    .error2 {
+        font-size: 1em;
+    }
+
+    .send button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu {
+        font-size: 0.9em;
+    }
+
+    .button {
+        top: -1.6em;
+        right: 0.5em;
+        padding: 0.3em 0.5em;
+        font-size: 1.1em;
+    }
+
+    .guest label {
+        margin-right: 0.5em;
+    }
+
+    .foodContainer {
+        width: 90%;
+        margin: 1em 0;
+        gap: 1em;
+    }
+
+    .allergies {
+        margin: 1em 0 0 0;
+    }
+
+    .mandatory {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu {
+        font-size: 0.8em;
+    }
+
+    .button {
+        top: -1.6em;
+        right: 0.5em;
+        font-size: 1.2em;
+    }
+
+    .guest select {
+        max-width: 50%;
+        min-width: 30%;
+        font-size: 0.8em;
+    }
+
+    .foodContainer {
+        gap: 0em;
+    }
+
+    .item {
+        width: 60%;
+    }
+
+    .allergies {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0em;
+        margin-left: 2em;
+    }
+
+    .allergyContainer {
+        width: 50%;
+    }
+
+    .allergy {
+        width: 50%;
+    }
+
+    .allergies input {
+        transform: scale(1);
+        margin-left: 0.4em;
+    }
+
+    .error,
+    .error2 {
+        font-size: 1em;
+    }
+}

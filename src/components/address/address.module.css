@@ -1,0 +1,25 @@
+.maps h2 {
+    margin: 1em 0;
+}
+
+.maps a {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.maps iframe {
+    margin-top: 2em;
+    border: none;
+    width: 100%;
+    height: 300px;
+}
+
+.maps {
+    margin: 0 2em 1em 3em;
+}
+
+@media (max-width: 1039px) {
+    .maps {
+        margin: 0 2em 1em 2em;
+    }
+}

@@ -1,16 +1,74 @@
 .img {
-    width: 50.3%;
-    margin: 0 auto;
-    background-color: aliceblue;
+    width: 54%;
+    margin: 1em auto;
 }
 
 .img img {
     width: 100%;
+    margin-top: 2em;
 }
 
 .img figcaption {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.7em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkslategray;
+}
+
+.link {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    ;
+}
+
+@media (max-width: 1199.98px) {
+    .message {
+        height: 56.2vh;
+    }
+
+    .img {
+        margin-top: 2.9em;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .message {
+        height: 60.4vh;
+    }
+
+    .img {
+        width: 60%;
+    }
+
+    .img figcaption {
+        margin-top: 1em;
+        font-size: 2.4em;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .message {
+        height: 61.7vh;
+    }
+
+    .img {
+        margin-top: 4em;
+        width: 65%;
+    }
+
+    .img figcaption {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .message {
+        height: 60.5vh;
+    }
+
+    .img {
+        margin-top: 6em;
+        width: 75%;
+    }
 }

@@ -1,0 +1,42 @@
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.warning {
+    background-color: azure;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    border-width: medium;
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: inset 3px 3px 3px tomato, inset -2px -2px 3px rgba(103, 38, 27), 2px 2px 10px rgba(103, 38, 27);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .9);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+@media(max-width: 1199px) {
+    .info {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media(max-width:700px) {
+    .info {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .warning {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width:500px) {
+    .warning {
+        font-size: 1.1em;
+    }
+}

@@ -1,8 +1,39 @@
 .header {
-    height: 175px;
+    height: 132px;
+    width: 100%;
 }
 
 .logo img {
     float: right;
+    height: 132px
+}
 
+@media (max-width: 1236px) {
+    .header {
+        height: 110px;
+    }
+
+    .logo img {
+        height: 110px
+    }
+}
+
+@media (max-width:800px) {
+    .header {
+        height: 94px;
+    }
+
+    .logo img {
+        height: 94px;
+    }
+}
+
+@media (max-width:400px) {
+    .header {
+        height: 70px;
+    }
+
+    .logo img {
+        height: 70px;
+    }
 }
