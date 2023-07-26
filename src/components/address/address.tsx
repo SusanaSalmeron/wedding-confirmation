@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from './address.module.css'
+import styles from "./address.module.css"
 import { Link } from "react-router-dom";
 
 
@@ -11,7 +11,6 @@ interface AddressProps {
     title: string
 
 }
-
 
 const Address: FC<AddressProps> = (props: AddressProps) => {
     return (

@@ -1,30 +1,19 @@
 import {
     FC, useState
 } from "react";
-import ReactModal from 'react-modal';
-import styles from './foodModal.module.css'
+import ReactModal from "react-modal";
+import styles from "./foodModal.module.css"
 import { Field, Form, Formik, ErrorMessage } from "formik";
-import { images } from '../../utils';
+import { images } from "../../utils";
 import ValidationFormForModalForm from "../../formValidations/validateModalForm";
+import { Group } from "../../services/attendants";
 
 
 
 interface FoodModalProps {
     callback: Function,
-    dataGroup: {
-        id: string,
-        group: string,
-        people: [],
-        size: number,
-        available: boolean
-    },
-    selectedGuests: [
-        {
-            guestName: string,
-            menuType: string,
-            allergies: []
-        }
-    ]
+    dataGroup: Group,
+    selectedGuests: GuestMenu[]
 }
 
 interface GuestMenu {
@@ -46,7 +35,7 @@ const menuPics: any = {
 
 const menuNames: string[] = ["Principal", "Infantil", "Veggie"]
 
-const initialValues: any = {
+const initialValues: GuestMenu = {
     guestName: "",
     menuType: "",
     allergies: []
@@ -64,12 +53,12 @@ const allergies: Allergies[] = [
     { name: "Gluten", image: images.gluten },
 ]
 
-ReactModal.setAppElement('#root');
+if (process.env.NODE_ENV !== "test") ReactModal.setAppElement("#root");
 
 const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState<boolean>(false);
     const [allergiesState, setAllergiesState] = useState(new Array(allergies.length).fill(false))
-    const [pendingGuests, setPendingGuests] = useState<any>(props.dataGroup.people)
+    const [pendingGuests, setPendingGuests] = useState<string[]>(props.dataGroup.people)
 
     const toggleModal = () => {
         setIsOpen(!isOpen)
@@ -77,21 +66,21 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
         deleteSelectedGuestsFromOptions(props.selectedGuests)
     }
 
-    const deleteSelectedGuestsFromOptions = (guests: any) => {
+    const deleteSelectedGuestsFromOptions = (guests: GuestMenu[]) => {
         const processedSet = new Set()
-        guests.map((guest: any) => processedSet.add(guest.guestName))
-        const pending = props.dataGroup.people.filter(name => !processedSet.has(name))
+        guests.map((guest: GuestMenu) => processedSet.add(guest.guestName))
+        const pending: string[] = props.dataGroup.people.filter(name => !processedSet.has(name))
         setPendingGuests(pending)
     }
 
-    const menuHandleSubmit = async (values: any, actions: any) => {
-        const guestSelection = []
+    const menuHandleSubmit = async (values: GuestMenu, actions: { resetForm: Function }) => {
+        const guestSelection: string[] = []
         for (let i = 0; i < allergiesState.length; i++) {
             if (allergiesState[i] === true) {
                 guestSelection.push(allergies[i].name)
             }
         }
-        let userSelection = {
+        let userSelection: GuestMenu = {
             guestName: values.guestName,
             menuType: values.menuType,
             allergies: guestSelection
@@ -102,7 +91,7 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
         setAllergiesState(new Array(allergies.length).fill(false))
     }
 
-    const handleOnChange = (position: any) => {
+    const handleOnChange = (position: number) => {
         const updatedCheckedState = allergiesState.map((item, index) =>
             index === position ? !item : item
         );
@@ -118,6 +107,7 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
                     onRequestClose={toggleModal}
                     contentLabel="Menu"
                     className={styles.menu}
+                    ariaHideApp={false}
                 >
                     <div className={styles.close}>
                         <Formik
@@ -132,9 +122,11 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
                                         < Field
                                             as="select"
                                             name="guestName"
+
                                         >
                                             <option>Elije un nombre</option>
-                                            {pendingGuests.map((person: any, i: any) => {
+                                            {pendingGuests.map((person: string, i: number) => {
+                                                <option>Elije un nombre</option>
                                                 return <option key={i} value={person}>{person}</option>
                                             })}
                                         </Field>
@@ -142,14 +134,14 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
                                     <div>
                                         <ErrorMessage
                                             className={styles.error}
-                                            name='guestName'
+                                            name="guestName"
                                             component="small"
                                         />
                                     </div>
 
                                     <h4 className={styles.title}>* Elije un menú: </h4>
                                     <div className={styles.foodContainer}>
-                                        {menuNames.map((name, i) => (
+                                        {menuNames.map((name: string, i: number) => (
                                             <div className={styles.item} key={i} >
                                                 <input
                                                     type="radio"
@@ -171,12 +163,12 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
                                     </div>
                                     <ErrorMessage
                                         className={styles.error2}
-                                        name='menuType'
+                                        name="menuType"
                                         component="small"
                                     />
                                     <h4 className={styles.title}>Marca tus intolerancias o alergias:</h4>
                                     <div className={styles.allergies}>
-                                        {allergies.map((allergy, i) => {
+                                        {allergies.map((allergy: Allergies, i: number) => {
                                             return <div key={i}>
                                                 <div className={styles.allergyContainer} >
                                                     <img className={styles.allergy} src={allergy.image} alt={allergy.name} />
@@ -195,7 +187,8 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
                                     </div>
                                     <div className={styles.mandatory}><p>* Los campos nombre y menú son obligatorios</p></div>
                                     <div className={styles.send}>
-                                        <button type="submit"
+                                        <button
+                                            type="submit"
                                             disabled={!isValid || !dirty || isSubmitting}
                                         >Añadir</button>
                                     </div>

@@ -1,8 +1,8 @@
-import React, { FC, useEffect } from 'react';
-import styles from './home.module.css';
-import VideoIntro from '../videoIntro/videoIntro';
-import { useNavigate, useParams } from 'react-router-dom';
-import { deleteGuest, getAttendantGroup } from '../../services/attendants';
+import { FC, useEffect } from "react";
+import styles from "./home.module.css";
+import VideoIntro from "../videoIntro/videoIntro";
+import { useNavigate, useParams } from "react-router-dom";
+import { deleteGuest, getAttendantGroup } from "../../services/attendants";
 
 interface HomeProps { }
 
@@ -20,20 +20,19 @@ const Home: FC<HomeProps> = () => {
 
     const buttonRightHandler = async () => {
         const groupDeleted = await deleteGuest(id)
-        console.log(groupDeleted)
         if (groupDeleted) {
-            navigate('/thanks')
+            navigate("/thanks")
         }
     }
 
     useEffect(() => {
         getAttendantGroup(id)
             .then(response => {
-                if (response === 410) {
-                    navigate('/message')
+                if (response.code === 410) {
+                    navigate("/message")
                 }
-                if (response === 404) {
-                    navigate('/notFound')
+                if (response.code === 404) {
+                    navigate("/notFound")
                 }
             })
     })

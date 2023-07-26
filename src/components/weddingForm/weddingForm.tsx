@@ -1,13 +1,14 @@
 import { FC, useEffect, useState } from "react";
-import styles from './weddingForm.module.css'
+import styles from "./weddingForm.module.css"
 import { Field, Form, Formik } from "formik";
-import photo from '../../images/form.jpg'
+import photo from "../../images/form.jpg"
 import FoodModal from "../foodModal/foodModal";
 import { getAttendantGroup, updateGuest } from "../../services/attendants";
 import { useNavigate, useParams } from "react-router-dom";
 import { useMedia } from "../../hooks/useMedia";
-import { images } from '../../utils'
+import { images } from "../../utils"
 import Spinner from "../spinner/spinner";
+import { Group } from "../../services/attendants";
 
 interface WeddingFormProps { }
 
@@ -43,9 +44,9 @@ const initialValues: InitialValues = {
 }
 
 const WeddingForm: FC<WeddingFormProps> = () => {
-    const isMediumSize = useMedia('(max-width: 1039px)')
+    const isMediumSize = useMedia("(max-width: 1039px)")
     const [guestsMenus, setGuestsMenus] = useState<any>([])
-    const [group, setGroup] = useState<any>({})
+    const [group, setGroup] = useState<Group>({ id: "", group: "", people: [""], size: 0, available: true })
     const [loading, setLoading] = useState<boolean>(true)
     const totalGuests: number = group.size
     const { id } = useParams<keyof GroupParams>() as GroupParams
@@ -54,16 +55,16 @@ const WeddingForm: FC<WeddingFormProps> = () => {
     useEffect(() => {
         getAttendantGroup(id)
             .then(response => {
-                if (response === 410) {
-                    navigate('/notFound')
+                if (response.statusCode() === 410) {
+                    navigate("/notFound")
                 } else {
-                    setGroup(response)
+                    setGroup(response.getContent())
                 }
                 setLoading(false)
             })
     }, [id, navigate, guestsMenus, loading])
 
-    const addMenu = (menu: any) => {
+    const addMenu = (menu: GuestMenu) => {
         let selectedMenus = [...guestsMenus]
         selectedMenus.push(menu)
         setGuestsMenus(selectedMenus)
@@ -78,9 +79,9 @@ const WeddingForm: FC<WeddingFormProps> = () => {
 
     const submitForm = async (values: InitialValues) => {
         const { room, brunch, songlist, comment } = values
-        const isFormSended = await updateGuest(id, guestsMenus, room, brunch, songlist, comment)
+        const isFormSended: boolean = await updateGuest(id, guestsMenus, room, brunch, songlist, comment)
         if (isFormSended) {
-            navigate('/congrats')
+            navigate("/congrats")
         }
     }
 
@@ -115,13 +116,13 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                                         <FoodModal callback={addMenu} dataGroup={group} selectedGuests={guestsMenus} />
                                     </div> : null}
                                     <div className={styles.guestContainer}>
-                                        {guestsMenus.length ? guestsMenus.map((menu: any, i: any) => (
+                                        {guestsMenus.length ? guestsMenus.map((menu: GuestMenu, i: string) => (
                                             <>
                                                 <div className={styles.guest}>
                                                     <div key={i}>{menu?.guestName}</div>
                                                     <div className={styles.tooltip}>Menú: {menu?.menuType}
                                                         <br></br>
-                                                        Alergias: {menu?.allergies.length ? menu?.allergies.map((m: any, i: any) => (
+                                                        Alergias: {menu?.allergies.length ? menu?.allergies.map((m: any, i: number) => (
                                                             <div key={i}>
                                                                 <p >{m}</p>
                                                             </div>

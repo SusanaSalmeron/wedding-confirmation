@@ -1,6 +1,6 @@
 import { FC } from "react";
-import styles from './header.module.css';
-import logo from '../../images/header.png'
+import styles from "./header.module.css";
+import logo from "../../images/header.png"
 
 
 interface HeaderProps { }

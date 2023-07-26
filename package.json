@@ -5,8 +5,8 @@
   "dependencies": {
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
-    "@testing-library/user-event": "13.5.0",
-    "@types/jest": "29.0.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/jest": "29.5.3",
     "@types/node": "18.0.0",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
@@ -22,7 +22,13 @@
     "react-multi-select-component": "4.3.4",
     "yup": "1.2.0",
     "axios": "1.4.0",
-    "react-spinners": "0.13.8"
+    "react-spinners": "0.13.8",
+    "ts-jest": "29.1.1"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|react-navigation)/"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,19 +1,16 @@
 import { FC } from "react"
 import Address from "../address/address"
 import { dataMaps } from "../../utils"
-import styles from './info.module.css'
+import styles from "./info.module.css"
 
-interface InfoProps {
-
-}
-
+interface InfoProps { }
 
 const Info: FC<InfoProps> = () => {
     return (
         <>
             <div className={styles.warning}>
                 <h4>AVISO</h4>
-                <h4>Una vez tengamos confirmación de asistencia y si habéis solicitado habitación, se os comunicará el hotel que se os haya asignado </h4>
+                <h4>Una vez tengamos confirmación de asistencia y si habéis solicitado habitación, se os comunicará el hotel que se os haya asignado</h4>
             </div>
             <div className={styles.info}>
                 {

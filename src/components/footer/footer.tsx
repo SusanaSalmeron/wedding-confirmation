@@ -1,6 +1,6 @@
 import { FC } from "react";
-import styles from './footer.module.css'
-import logo from '../../images/footer.png'
+import styles from "./footer.module.css"
+import logo from "../../images/footer.png"
 import { Link } from "react-router-dom";
 
 

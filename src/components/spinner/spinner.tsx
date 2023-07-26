@@ -1,11 +1,8 @@
-import React, { FC, CSSProperties } from 'react';
+import React, { FC, CSSProperties } from "react";
 import GridLoader from "react-spinners/GridLoader";
 
 
-interface SpinnerProps {
-
-
-}
+interface SpinnerProps { }
 
 const override: CSSProperties = {
     margin: "0",
