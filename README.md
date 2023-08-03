@@ -1,4 +1,81 @@
-# Getting Started with Create React App
+<h3 align="center">Wedding Confirmation React App</h3>
+    <p align="center">
+    Wedding Confirmation form for attendants
+    <br />
+    <a href="https://github.com/SusanaSalmeron/wedding-confirmation"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/SusanaSalmeron/wedding-confirmation">View Demo</a>
+    ·
+    <a href="https://github.com/SusanaSalmeron/wedding-confirmation/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/SusanaSalmeron/wedding-confirmation/issues">Request Feature</a>
+  </p>
+</div>
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+## About The Project
+This project was created for learning to use this technologies.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Built With
+
+* [React.js](https://reactjs.org)
+* [Axios](https://axios-http.com)
+* [Formik](https://formik.org)
+* [Yup](https://github.com/jquense/yup)
+* [React testing library](https://testing-library.com/docs/react-testing-library/intro/)
+* [React-Spinners](https://www.davidhu.io/react-spinners/)
+* [React-Modal](https://github.com/reactjs/react-modal)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+### Prerequisites
+
+You will need installed this technologies:
+
+* Node.js v14.x
+* npm v8.x
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/SusanaSalmeron/wedding-confirmation.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Usage
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -29,18 +106,18 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Distributed under the MIT License. See `license.txt` for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contact
 
-## Learn More
+Susana Salmeron - [@exdream76](https://twitter.com/ExDream76) - exdream76@gmail.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Project Link: [https://github.com/SusanaSalmeron/wedding-confirmation](https://github.com/SusanaSalmeron/wedding-confirmation)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">back to top</a>)</p>
