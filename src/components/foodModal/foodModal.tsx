@@ -122,11 +122,9 @@ const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
                                         < Field
                                             as="select"
                                             name="guestName"
-
                                         >
                                             <option>Elije un nombre</option>
                                             {pendingGuests.map((person: string, i: number) => {
-                                                <option>Elije un nombre</option>
                                                 return <option key={i} value={person}>{person}</option>
                                             })}
                                         </Field>

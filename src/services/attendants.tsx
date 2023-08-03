@@ -23,7 +23,7 @@ abstract class ApiMessage {
     abstract getContent(): Group
 }
 
-class ApiResponse extends ApiMessage {
+export class ApiResponse extends ApiMessage {
     group: Group
 
     constructor(code: number, content: any) {
@@ -35,7 +35,12 @@ class ApiResponse extends ApiMessage {
     }
 }
 
-class ApiError extends ApiMessage {
+export class ApiError extends ApiMessage {
+    code: number
+    constructor(code: number) {
+        super(code)
+        this.code = code
+    }
     getContent(): Group {
         return {
             id: '0',

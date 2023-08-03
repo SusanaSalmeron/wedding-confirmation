@@ -28,14 +28,14 @@ const Home: FC<HomeProps> = () => {
     useEffect(() => {
         getAttendantGroup(id)
             .then(response => {
-                if (response.code === 410) {
+                if (response.statusCode() === 410) {
                     navigate("/message")
                 }
-                if (response.code === 404) {
+                if (response.statusCode() === 404) {
                     navigate("/notFound")
                 }
             })
-    })
+    }, [id, navigate])
 
     return (
         <div className={styles.home} data-testid="home">

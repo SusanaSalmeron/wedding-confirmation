@@ -59,8 +59,8 @@ const WeddingForm: FC<WeddingFormProps> = () => {
                     navigate("/notFound")
                 } else {
                     setGroup(response.getContent())
+                    setLoading(false)
                 }
-                setLoading(false)
             })
     }, [id, navigate, guestsMenus, loading])
 

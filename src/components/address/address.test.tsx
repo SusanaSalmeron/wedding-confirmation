@@ -12,7 +12,7 @@ const mockedDataMap = {
 
 
 describe("<Adddress />", () => {
-    test("sould show a map correctly", async () => {
+    test("should show a map successfully", async () => {
         render(
             <BrowserRouter>
                 <Address description={mockedDataMap.description} link={mockedDataMap.link} address={mockedDataMap.address} map={mockedDataMap.map} title={mockedDataMap.title} />

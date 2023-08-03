@@ -22,7 +22,7 @@ function App() {
         <Route path="/info" element={<Info />} />
         <Route path="/notFound" element={<InfoMessage message="Este grupo de asistentes no existe" image="https://media.giphy.com/media/3K0D1Dkqh9MOmLSjzW/giphy.gif" alt="destruction" link="" email="" />} />
         <Route path="/congrats" element={<InfoMessage message="Gracias por indicarnos que vas/vais a asistir" image="https://media.giphy.com/media/jd6TVgsph6w7e/giphy.gif" alt="happy" link="/info" email="" />} />
-        <Route path="/thanks" element={<InfoMessage message={`Gracias por indicarnos que no vais a asistir, si cambiáis de opinión podéis escribir a `}
+        <Route path="/thanks" element={<InfoMessage message={`Gracias por indicarnos que no vais a asistir, si cambiáis de opinión podéis llamar al 672 217 578 o bien escribir a `}
           image="https://media.giphy.com/media/l1uggWFeBZ47ZSGre/giphy.gif" alt="bye" link="" email="bodatyj071023@gmail" />} />
       </Routes>
       <Footer />

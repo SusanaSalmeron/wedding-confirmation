@@ -19,7 +19,7 @@ const InfoMessage: FC<InfoMessageProps> = (props: InfoMessageProps) => {
                     {props.link ? <Link to={props.link} >Aqui tienes unos enlaces de interés sobre el evento, puedes consultarlos volviendo a la web cuando quieras</Link> : null}
                 </div>
                 <img src={props.image ? props.image : "https://media.giphy.com/media/l2JJKs3I69qfaQleE/giphy.gif"} alt={props.alt ? props.alt : "jedi"} />
-                <figcaption>{props.message ? props.message : `Este grupo ya ha indicado su elección, si cambiáis de opinión podéis escribir a `}
+                <figcaption>{props.message ? props.message : `Este grupo ya ha indicado su elección, si cambiáis de opinión podéis llamar al 672 217 578 o bien escribir a `}
                     {props.email ? <button className={styles.send} onClick={() => window.open('mailto:bodatyj071023@gmail.com?subject=Quiero cambiar mi respuesta sobre la asistencia al enlace&body=Por favor, indica un nombre, telefono y el cambio que quieres realizar')}>
                         {props.email}
                     </button> : null}

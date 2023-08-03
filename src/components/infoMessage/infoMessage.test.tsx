@@ -17,7 +17,6 @@ describe("<InfoMessage/>", () => {
         const link = screen.getByRole("link")
         expect(link).toHaveAttribute("href", "/www.link.es")
         expect(link).toHaveTextContent("Aqui tienes unos enlaces de interés sobre el evento, puedes consultarlos volviendo a la web cuando quieras")
-
     })
 
     test("shows default info when not passing props", async () => {
@@ -33,6 +32,5 @@ describe("<InfoMessage/>", () => {
         const link = screen.queryByRole("link")
         expect(link).not.toBeInTheDocument()
         expect(link).toBeNull()
-
     })
 })
