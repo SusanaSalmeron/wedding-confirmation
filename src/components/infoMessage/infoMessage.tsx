@@ -11,7 +11,7 @@ interface InfoMessageProps {
     email: string
 }
 
-const InfoMessage: FC<InfoMessageProps> = (props: InfoMessageProps) => {
+export const InfoMessage: FC<InfoMessageProps> = (props: InfoMessageProps) => {
     return (
         <div className={styles.message}>
             <figure className={styles.img}>

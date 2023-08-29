@@ -6,7 +6,7 @@ import { useMedia } from "../../hooks/useMedia";
 
 interface VideoIntroProps { }
 
-const VideoIntro: FC<VideoIntroProps> = () => {
+export const VideoIntro: FC<VideoIntroProps> = () => {
     const isMobile = useMedia("(max-width: 650px)")
 
     return (

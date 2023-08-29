@@ -1,0 +1,778 @@
+PERSONAS QUE VAN A IR AL BRUNCH:
+- Pili y Tito Noble
+- Carlos y Meli
+- Nines y Tito Miki
+- Gustavo
+- Betty y Emiliano
+- Padel y Madel
+- Paco
+- Vanesa, Fernando, Diego y Maxi
+- Mery y familia
+- Patri, Iñigo, Claudia y Elvira
+- Cuqui y Carlos
+- Paco Josma
+- Esther y Pablo
+- Juan y Ana
+- Rubén y Susana
+- Emilio
+- Estefania, Boris, Santiago y Lucas
+- Leo
+- Aminta y Rober
+- Mamá
+- Sara, Carlos, Martin y Marco
+- Inma
+- Tio Ricardo
+- Carlos, Lorean y Hector
+- Kasia, Sergi y Sara
+- Muna, Noe y Maya
+- Lumi y Juan
+- Bulo
+- Silvia, Dani y Candela
+- Encarna y Alvaro
+
+PERSONAS QUE NO VAN A IR AL BRUNCH:
+- Pilar y Jose Manuel
+- Domingo, Merche y Luis
+- Tia Antonia y Ciri
+- Viton y M. Luz
+- Juan Carlos y Marta
+- Mari
+- Sina y Jose Antonio
+- Abuela Nati
+- Maria Jesus y Juan
+- David, Susana, Olivia y Hugo
+- Conchi y Massi
+- Vido
+- Miguel y M.Luz
+- Jose Manuel y Loudes
+- Alberto
+- Ricardo, Silvia y Alberto
+
+PERSONAS QUE NECESITAN ALOJAMIENTO:
+- Pili y Tito Noble
+- Nines y Tito Miki
+- Viton y M. Luz
+- Betty y Emiliano
+- Paco
+- Mery y familia
+- Patri, Iñigo, Claudia y Elvira
+- Cuqui y Carlos
+- Esther y Pablo
+- Juan y Ana
+- Rubén y Susana
+- Emilio
+- Estefania, Boris, Santiago y Lucas
+- Leo
+- Aminta y Rober
+- Miguel y M.Luz
+- Mamá
+- Sara, Carlos, Martin y Marco
+- Inma
+- Kasia, Sergi y Sara
+- Muna, Noe y Maya
+- Lumi y Juan
+- Bulo
+
+GRUPOS QUE ASISTEN A LA BODA: 
+- Grupo: Pili y Tito Noble
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Pili
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:STILL LOVING YOU DE SCORPIONS 
+HOY TENGO GANAS DE TI DE ALEJANDRO FERNSNDEZ
+SHIVERS DE ED SHEERAN
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Carlos y Meli
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Meli
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Nines y Tito Miki
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Nines
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Bruce Springsteen/Dancing in the  dark
+Rolling  Stones/ jumping jack flash
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Pilar y Jose Manuel
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Pilar
+	 Menú: Principal
+	 Alergias: Lactosa,Gluten
+
+	 Nombre: Jose Manuel
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Domingo, Merche y Luis
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Domingo
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Merche
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Luis
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Tia Antonia y Ciri
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Tia Antonia
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Ciri
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Viton y M. Luz
+  Brunch: No
+  Hotel: Sí
+  Menus: 
+	 Nombre: Viton
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: M. Luz
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Juan Carlos y Marta
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Juan Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Marta
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Gustavo
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Gustavo
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: No se lo que es un brunch. La letra es para menores de 40 años.
+________________________________________________
+
+- Grupo: Mari
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Mari
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Betty y Emiliano
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Betty
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Emiliano
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Elvis Presley "in the guetto"
+Jennifer Rush "the power of love"
+Coque Malla "no puedo vivir sin tu"
+Andra Day "Rise Up"
+Bon Jovi "Bed of Roses"
+Europe "The final countdown"
+Tina Turner "rolling on the river"
+Bisbal "Dígale"
+Elvis Presley "Suspicious mind"
+Bruce Springsteen "i am on fire"
+Camilo Sesto "vivir así es morir de amor"
+Pablo Alborán"perdóname"
+Manuel Carrasco "ya no"
+Queen "Love of my live"
+Simon Díaz "caballo viejo"
+Beatles "Let It be"
+Pablo Alborán "por fin"
+Beret "Beso robado"
+Luis Fonsi "no me doy por vencido"
+Tina Cousins "Pray"
+Song of Legends "I'm so excited"
+  Comentarios: Nos lo vamos a pasar tetaaaaaaaa!!!!
+________________________________________________
+
+- Grupo: Padel y Madel
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Padel
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Mediterráneo y la charanga
+  Comentarios: Fundamental para mi dieta : percebes , andaricas y mucha cerveza
+________________________________________________
+
+- Grupo: Sina y Jose Antonio
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Sina
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Jose Antonio
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Paco
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Paco
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Vanesa, Fernando, Diego y Maxi
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Vanesa
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Fernando
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Diego
+	 Menú: Infantil
+	 Alergias: Ninguna
+
+	 Nombre: Maxi
+	 Menú: Infantil
+	 Alergias: Ninguna
+  Canciones:ANA MENA Y BELINDA ( LAS 12 )
+MANUEL TURIZO (EL MERENGUE)
+LOLA INDIGO Y QUEVEDO (EL TONTO)
+LOS BRAVOS (BLACK IS BLACK)
+NOLASCO (LAS COSAS PEQUEÑITAS)
+BRUNO MARS (LOCKED OUT OF HEAVEN)
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Abuela Nati
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Abuela Nati
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Mery y familia
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Adrian
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Mery
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Patri, Iñigo, Claudia y Elvira
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Patri
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Iñigo
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Suavemente de Elvis Crespo
+Hijos del Sol (canción peruana con la que nos echamos unas buenas risas)
+Extremoduro (elige Tania cualquiera de las que hemos escuchado mil veces en nuestros viajes en coche)
+  Comentarios: ¡Claudia y Elvira si no cambia nada se quedan en casita! Haremos videollamada para que vean lo bien que lo estamos pasando con esta pareja chula.
+________________________________________________
+
+- Grupo: Maria Jesus y Juan
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Maria Jesus y Juan
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Cuqui y Carlos
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Cuqui
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:despues de la playa_ bud bunny
+arranca_ Becky G
+vagabundo_ sebastian yatra
+la bachata _ manuel turizo
+burbujas de amor_ juan luis guerra
+Marea
+fito y fitipaldis
+La fuga 
+Dikers_ Corazón de trapo
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Paco Josma
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Paco Josma
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Chueca es genial
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Esther y Pablo
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Esther
+	 Menú: Infantil
+	 Alergias: Lactosa
+
+	 Nombre: Pablo
+	 Menú: Infantil
+	 Alergias: Lactosa
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: David, Susana, Olivia y Hugo
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: David
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Susana
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Olivia
+	 Menú: Infantil
+	 Alergias: Ninguna
+
+	 Nombre: Hugo
+	 Menú: Infantil
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Juan y Ana
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Ana
+	 Menú: Principal
+	 Alergias: F.secos,Cacahue.
+
+	 Nombre: Juan
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Fisica o quimica - Despistaos
+Por la boca vive el pez - Fito y fitipaldis
+sara perche ti amo - ricchi e poveri
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Conchi y Massi
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Conchi
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Massi
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Rubén y Susana
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Rubén
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Susana
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:WRS - Llamame
+Vitas - Seventh Element
+Opening de la Aldea del Arce
+El ultimo de la fila - Lejos de las leyes de los hombres
+El ultimo dela fila - Insurreccion
+Star Wars - Imperial March
+Sherlock Hound Opening
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Emilio
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Emilio
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Apatruyando la ciudad
+El torito con botones
+Opa, yo voy a hace un corrá
+  Comentarios: Juan, mariconadas las justas
+________________________________________________
+
+- Grupo: Estefania, Boris, Santiago y Lucas
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Estefania
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Vido
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Vido
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Tantum ergo
+Kirie eleison
+Pange lingual
+Este es el día en que actuó el Señor
+Litros de alcohol
+España camisa blanca
+Cara al sol
+Himno de España
+El novio de la muerte
+  Comentarios: Sería bueno rezar el rosario de la aurora antes del brunch
+________________________________________________
+
+- Grupo: Leo
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Leo
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Y nos vamos pa Madrid (del barrio)
+  Comentarios: Me encanta la pareja que se casa,son muy guapos!!!
+________________________________________________
+
+- Grupo: Aminta y Rober
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Rober
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Aminta
+	 Menú: Veggie
+	 Alergias: Ninguna
+  Canciones:Oliver y Benji: Campeones. Los del Río: Macarena. El Rey León: Hakuna Matata. El Fary: Torito Bravo. Colin Verancombe: Wonderful Life. Marea: Corazón de Mimbre. Michael Sembello: Maniac. BSB: Everybody. Spice Girls: Wannabe. Mike Oldfield: Moonlight Shadow. Joe Cocker: You are so beautiful. Scatman John: Scatman. La Abeja Maya: Cabecera. Coolio: Gangsta’s Paradise. Mónica Naranjo: Sobreviviré. Bon Jovi: It’s my life. Queen: We will rock you. Queen: don’t stop me now. Joselito: La Campanera. Amistades Peligrosas: Me quedaré solo. Bonnie Tyler: Total Eclipse of the Heart. Michael Jackson: Trhiller. Mecano: Hijo de la Luna. Gloria Gaynor: I will survive. Sia: Unstoppable. Imagine Dragons: Believer. Los fruitis: cabecera. Imagine Dragons: Thunder. Indila: Deniere Danse. Karoñ G: Mientras me curo del Corazón. Corona: The Rythm of the night. John Lennon: Imagine. Disturbed: the Sound of Silence. Michael Jackson: Beat it. Michael Jackson: Earth Song. Beng E. King: Stand By Me. Bruno Mars: Just the Way you Are. Withney Houston: I will always love you. Shakira: Suerte. The Soca Boys: Follow the leader. Evanesence: Bring me to life. Marc Anthony: Vivir mi Vida. El rey León el Musical: Él vive en ti. Beyonce: Halo. El Chojin: Ven, ven. The Fugees: Killing me Softly. David el Gnomo: Soy un Gnomo. Lolita: Sarandonga. XTM: Fly on the Wings of Love. Desireeless: Voayage Voayage. Grease: The one that I want. Safri Dup: the Bongo Song. Nino Bravo: Libre. Raphael: como yo te Amo. Black Eye Peas: Where is the love. Britney Spears: Oops I did it again. Aqua: Barbie Girl. Oasis: Wonderwall. Camilo Sesto: Melina. Queen: we are the Champions. Queen: Mama. Eminem: lose Yourself. Pink: Try: Christina Aguilera: Beautiful. El
+Chombo: el Gato Volador. Las Ketchup: Aseré. King África: Bomba. Rema: Calm Down. Mecano: Hijo de la Luna. El Barrio: pa’ Madrid. La Oreja de Van Gogh: Geografía. Pedro Guerra: Contra el Poder. Young Paul Young: Love is in the Air. Estopa: Partiendo la pana. Mocedades: Eres tú. Julio Iglesias: Baila Morena. Marvin Gaye and Tammi Terrell: Ain’t no Mountain High. Marisol: Tómbola. Alejandro Sanz: No es lo mismo.  Alejandro Sanz, Arkano y Melendi: Déjala que baile. Gloria Estefan: Hoy. Hevia: Busindree Reel. OBK: el Cielo no entiende. Rocío Durcal: Me gustas mucho. Nino Bravo: Te Quiero, te Quiero. Shakira: Hips don’t lie. James Brown: I feel Good. Massiel: Lalala. Whig Field: Saturday Night.
+  Comentarios: To pro y bonita la invitación 😎
+________________________________________________
+
+- Grupo: Miguel y M.Luz
+  Brunch: No
+  Hotel: Sí
+  Menus: 
+	 Nombre: Miguel
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:https://youtu.be/9_h2FrcZjQs
+https://youtu.be/oadhHk2xs6c
+https://youtu.be/KLPWXIWpCiA
+https://youtu.be/uTjgZEapJb8
+  Comentarios: Voy yo solo. Mariluz no. Tengo intolerancia al pacharán.
+________________________________________________
+
+- Grupo: Mamá
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Mamá
+	 Menú: Principal
+	 Alergias: Moluscos,Marisco,Pescado
+  Canciones:Baile del sapito
+  Comentarios: Cómo petición personal,pido a cambio del marisco y pescado,que haya chistorra para mi,
+________________________________________________
+
+- Grupo: Sara, Carlos, Martin y Marco
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Sara
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:No sé si es para la fiesta, comida, ceremonia… Tania ya sabes cualquiera de Alejandro Sanz y no sé un poco de todo Coldplay, regueton o bailables de siempre, pop de ahora, la chivita jajaja
+  Comentarios: ¿Cómo sois así de máquinas? Me quedo flipada!
+________________________________________________
+
+- Grupo: Inma
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Inma
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Banda sonora Carmina Burana.
+Blas Cantó: voy a quedarme.
+Coldplay: viva la vida
+  Comentarios: Estoy preparada para degustar todas las delicatessen que va a haber en esta boda tan chachi
+________________________________________________
+
+- Grupo: Tio Ricardo
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Tio Ricardo
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Jose Manuel y Loudes
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Jose Manuel
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Alberto
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Alberto
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Carlos, Lorean y Hector
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Lorean
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Madre tierra (Chayanne)
+Me quedaré (estopa)
+Ni más ni menos (los chichos)
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Kasia, Sergi y Sara
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Kasia
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Sergi
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Harry Styles - As it was, / Russian Red - I hate you but I love you / Guns and Roses - Sweet child o’mine
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Muna, Noe y Maya
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Maya
+	 Menú: Infantil
+	 Alergias: Ninguna
+  Canciones:Voy a pasármelo bien! Hombresg
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Lumi y Juan
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Lumi
+	 Menú: Principal
+	 Alergias: Lactosa
+
+	 Nombre: Juan
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:'Sara perché ti amo' - ricchi e poveri
+Joaquín Sabina - 'y nos dieron las diez'
+Joaquín Sabina - 'La del pirata cojo'
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Bulo
+  Brunch: Sí
+  Hotel: Sí
+  Menus: 
+	 Nombre: Bulo
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:El bueno El feo y El malo
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Ricardo, Silvia y Alberto
+  Brunch: No
+  Hotel: No
+  Menus: 
+	 Nombre: Ricardo
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Silvia
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Alberto
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Ninguna
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Silvia, Dani y Candela
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Silvia
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Dani
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Candela
+	 Menú: Infantil
+	 Alergias: Ninguna
+  Canciones:ES QUE AHORA NO CAIGO...  los Ronaldos , no puedo vivir sin ti.
+Alguna de Rozalen., Candela seguro que Rosalia
+  Comentarios: Ninguno
+________________________________________________
+
+- Grupo: Encarna y Alvaro
+  Brunch: Sí
+  Hotel: No
+  Menus: 
+	 Nombre: Encarna
+	 Menú: Principal
+	 Alergias: Ninguna
+
+	 Nombre: Alvaro
+	 Menú: Principal
+	 Alergias: Ninguna
+  Canciones:Diré stray
+Rollins
+  Comentarios: Juan yo cerveza tostada.
+Es una putada pero lo pasaremos genial😩😩😩
+________________________________________________

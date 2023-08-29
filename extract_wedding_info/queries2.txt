@@ -1,0 +1,959 @@
+Personas que van a ir al brunch:
+- Pili y Tito Noble
+- Carlos y Meli
+- Nines y Tito Miki
+- Gustavo
+- Betty y Emiliano
+- Padel y Madel
+- Paco
+- Vanesa, Fernando, Diego y Maxi
+- Mery y familia
+- Patri, Iñigo, Claudia y Elvira
+- Cuqui y Carlos
+- Paco Josma
+- Esther y Pablo
+- Juan y Ana
+- Rubén y Susana
+- Emilio
+- Estefania, Boris, Santiago y Lucas
+- Leo
+- Aminta y Rober
+- Mamá
+- Sara, Carlos, Martin y Marco
+- Inma
+- Tio Ricardo
+- Carlos, Lorean y Hector
+- Kasia, Sergi y Sara
+- Muna, Noe y Maya
+- Lumi y Juan
+- Bulo
+- Silvia, Dani y Candela
+- Encarna y Alvaro
+
+Personas que no van a ir al brunch:
+- Pilar y Jose Manuel
+- Domingo, Merche y Luis
+- Tia Antonia y Ciri
+- Viton y M. Luz
+- Juan Carlos y Marta
+- Mari
+- Sina y Jose Antonio
+- Abuela Nati
+- Maria Jesus y Juan
+- David, Susana, Olivia y Hugo
+- Conchi y Massi
+- Vido
+- Miguel y M.Luz
+- Jose Manuel y Loudes
+- Alberto
+- Ricardo, Silvia y Alberto
+
+Personas que necesitan habitación:
+- Pili y Tito Noble
+- Nines y Tito Miki
+- Viton y M. Luz
+- Betty y Emiliano
+- Paco
+- Mery y familia
+- Patri, Iñigo, Claudia y Elvira
+- Cuqui y Carlos
+- Esther y Pablo
+- Juan y Ana
+- Rubén y Susana
+- Emilio
+- Estefania, Boris, Santiago y Lucas
+- Leo
+- Aminta y Rober
+- Miguel y M.Luz
+- Mamá
+- Sara, Carlos, Martin y Marco
+- Inma
+- Kasia, Sergi y Sara
+- Muna, Noe y Maya
+- Lumi y Juan
+- Bulo
+
+
+- Grupo: Pili y Tito Noble
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Pili
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: still loving you de scorpions 
+hoy tengo ganas de ti de alejandro fernsndez
+shivers de ed sheeran
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Carlos y Meli
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Meli
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Nines y Tito Miki
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Nines
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: bruce springsteen - dancing in the  dark
+rolling  stones -  jumping jack flash
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Pilar y Jose Manuel
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Pilar
+	 Menú: Principal
+	 Alergias: Lactosa,Gluten,
+	 Nombre: Jose Manuel
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Domingo, Merche y Luis
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Domingo
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Merche
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Luis
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Tia Antonia y Ciri
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Tia Antonia
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Ciri
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Viton y M. Luz
+- Brunch: No
+- Hotel: Sí
+- Menus: 
+	 Nombre: Viton
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: M. Luz
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Juan Carlos y Marta
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Juan Carlos
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Marta
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Gustavo
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Gustavo
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: No se lo que es un brunch. La letra es para menores de 40 años.
+
+___________________________________________________
+
+
+- Grupo: Mari
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Mari
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Betty y Emiliano
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Betty
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Emiliano
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: elvis presley in the guetto
+jennifer rush the power of love
+coque malla no puedo vivir sin tu
+andra day rise up
+bon jovi bed of roses
+europe the final countdown
+tina turner rolling on the river
+bisbal dígale
+elvis presley suspicious mind
+bruce springsteen i am on fire
+camilo sesto vivir así es morir de amor
+pablo alboránperdóname
+manuel carrasco ya no
+queen love of my live
+simon díaz caballo viejo
+beatles let it be
+pablo alborán por fin
+beret beso robado
+luis fonsi no me doy por vencido
+tina cousins pray
+song of legends im so excited
+- Comentario: Nos lo vamos a pasar tetaaaaaaaa!!!!
+
+___________________________________________________
+
+
+- Grupo: Padel y Madel
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Padel
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: mediterráneo y la charanga
+- Comentario: Fundamental para mi dieta : percebes , andaricas y mucha cerveza
+
+___________________________________________________
+
+
+- Grupo: Sina y Jose Antonio
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Sina
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Jose Antonio
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Paco
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Paco
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Vanesa, Fernando, Diego y Maxi
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Vanesa
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Fernando
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Diego
+	 Menú: Infantil
+	 Alergias: Ninguna,
+	 Nombre: Maxi
+	 Menú: Infantil
+	 Alergias: Ninguna
+- Canciones: ana mena y belinda  las 12 
+manuel turizo el merengue
+lola indigo y quevedo el tonto
+los bravos black is black
+nolasco las cosas pequeñitas
+bruno mars locked out of heaven
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Abuela Nati
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Abuela Nati
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Mery y familia
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Adrian
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Mery
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Patri, Iñigo, Claudia y Elvira
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Patri
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Iñigo
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: suavemente de elvis crespo
+hijos del sol canción peruana con la que nos echamos unas buenas risas
+extremoduro elige tania cualquiera de las que hemos escuchado mil veces en nuestros viajes en coche
+- Comentario: ¡Claudia y Elvira si no cambia nada se quedan en casita! Haremos videollamada para que vean lo bien que lo estamos pasando con esta pareja chula.
+
+___________________________________________________
+
+
+- Grupo: Maria Jesus y Juan
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Maria Jesus y Juan
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Cuqui y Carlos
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Cuqui
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: despues de la playa bud bunny
+arranca becky g
+vagabundo sebastian yatra
+la bachata  manuel turizo
+burbujas de amor juan luis guerra
+marea
+fito y fitipaldis
+la fuga 
+dikers corazón de trapo
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Paco Josma
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Paco Josma
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: chueca es genial
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Esther y Pablo
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Esther
+	 Menú: Infantil
+	 Alergias: Lactosa,
+	 Nombre: Pablo
+	 Menú: Infantil
+	 Alergias: Lactosa
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: David, Susana, Olivia y Hugo
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: David
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Susana
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Olivia
+	 Menú: Infantil
+	 Alergias: Ninguna,
+	 Nombre: Hugo
+	 Menú: Infantil
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Juan y Ana
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Ana
+	 Menú: Principal
+	 Alergias: F.secos,Cacahue.,
+	 Nombre: Juan
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: fisica o quimica - despistaos
+por la boca vive el pez - fito y fitipaldis
+sara perche ti amo - ricchi e poveri
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Conchi y Massi
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Conchi
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Massi
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Rubén y Susana
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Rubén
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Susana
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: wrs - llamame
+vitas - seventh element
+opening de la aldea del arce
+el ultimo de la fila - lejos de las leyes de los hombres
+el ultimo dela fila - insurreccion
+star wars - imperial march&#92;nsherlock hound opening
+psy - gangnam style
+roxette - the look
+simply red - if you dont know me by now
+prince - thieves in the temple
+wheesung - i even thought of marriage
+2pm -go crazy
+big bang - fxxk it
+bts - fake love
+dbsk - wrong number
+ftisland - severely
+fly to the sky - 술 alcohol
+forestella - hijo de la luna
+jonghyun - hyeya
+dimash kudaibergen - stranger
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Emilio
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Emilio
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: apatruyando la ciudad
+el torito con botones
+opa, yo voy a hace un corrá
+- Comentario: Juan, mariconadas las justas
+
+___________________________________________________
+
+
+- Grupo: Estefania, Boris, Santiago y Lucas
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Estefania
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Vido
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Vido
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: tantum ergo
+kirie eleison
+pange lingual
+este es el día en que actuó el señor
+litros de alcohol
+españa camisa blanca
+cara al sol
+himno de españa
+el novio de la muerte
+- Comentario: Sería bueno rezar el rosario de la aurora antes del brunch
+
+___________________________________________________
+
+
+- Grupo: Leo
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Leo
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: y nos vamos pa madrid del barrio
+- Comentario: Me encanta la pareja que se casa,son muy guapos!!!
+
+___________________________________________________
+
+
+- Grupo: Aminta y Rober
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Rober
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Aminta
+	 Menú: Veggie
+	 Alergias: Ninguna
+- Canciones: oliver y benji campeones los del río macarena el rey león hakuna matata el fary torito bravo colin verancombe wonderful life marea corazón de mimbre michael sembello maniac bsb everybody spice girls wannabe mike oldfield moonlight shadow joe cocker you are so beautiful scatman john scatman la abeja maya cabecera coolio gangsta’s paradise mónica naranjo sobreviviré bon jovi it’s my life queen we will rock you queen don’t stop me now joselito la campanera amistades peligrosas me quedaré solo bonnie tyler total eclipse of the heart michael jackson trhiller mecano hijo de la luna gloria gaynor i will survive sia unstoppable imagine dragons believer los fruitis cabecera imagine dragons thunder indila deniere danse karoñ g mientras me curo del corazón corona the rythm of the night john lennon imagine disturbed the sound of silence michael jackson beat it michael jackson earth song beng e king stand by me bruno mars just the way you are withney houston i will always love you shakira suerte the soca boys follow the leader evanesence bring me to life marc anthony vivir mi vida el rey león el musical él vive en ti beyonce halo el chojin ven, ven the fugees killing me softly david el gnomo soy un gnomo lolita sarandonga xtm fly on the wings of love desireeless voayage voayage grease the one that i want safri dup the bongo song nino bravo libre raphael como yo te amo black eye peas where is the love britney spears oops i did it again aqua barbie girl oasis wonderwall camilo sesto melina queen we are the champions queen mama eminem lose yourself pink try christina aguilera beautiful el
+chombo el gato volador las ketchup aseré king áfrica bomba rema calm down mecano hijo de la luna el barrio pa’ madrid la oreja de van gogh geografía pedro guerra contra el poder young paul young love is in the air estopa partiendo la pana mocedades eres tú julio iglesias baila morena marvin gaye and tammi terrell ain’t no mountain high marisol tómbola alejandro sanz no es lo mismo  alejandro sanz, arkano y melendi déjala que baile gloria estefan hoy hevia busindree reel obk el cielo no entiende rocío durcal me gustas mucho nino bravo te quiero, te quiero shakira hips don’t lie james brown i feel good massiel lalala whig field saturday night
+- Comentario: To pro y bonita la invitación 😎
+
+___________________________________________________
+
+
+- Grupo: Miguel y M.Luz
+- Brunch: No
+- Hotel: Sí
+- Menus: 
+	 Nombre: Miguel
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: bryan adams - im ready
+chris isaak - wicked game
+los nikis - la fiesta medieval
+zz top - chartreuse
+- Comentario: Voy yo solo. Mariluz no. Tengo intolerancia al pacharán.
+
+___________________________________________________
+
+
+- Grupo: Mamá
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Mamá
+	 Menú: Principal
+	 Alergias: Moluscos,Marisco,Pescado
+- Canciones: baile del sapito
+- Comentario: Cómo petición personal,pido a cambio del marisco y pescado,que haya chistorra para mi,
+
+___________________________________________________
+
+
+- Grupo: Sara, Carlos, Martin y Marco
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Sara
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: no sé si es para la fiesta, comida, ceremonia… tania ya sabes cualquiera de alejandro sanz y no sé un poco de todo coldplay, regueton o bailables de siempre, pop de ahora, la chivita jajaja
+- Comentario: ¿Cómo sois así de máquinas? Me quedo flipada!
+
+___________________________________________________
+
+
+- Grupo: Inma
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Inma
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: banda sonora carmina burana
+blas cantó voy a quedarme
+coldplay viva la vida
+- Comentario: Estoy preparada para degustar todas las delicatessen que va a haber en esta boda tan chachi
+
+___________________________________________________
+
+
+- Grupo: Tio Ricardo
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Tio Ricardo
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Jose Manuel y Loudes
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Jose Manuel
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Alberto
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Alberto
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Carlos, Lorean y Hector
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Lorean
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Carlos
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: madre tierra chayanne
+me quedaré estopa
+ni más ni menos los chichos
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Kasia, Sergi y Sara
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Kasia
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Sergi
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: harry styles - as it was,  -  russian red - i hate you but i love you  -  guns and roses - sweet child o’mine
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Muna, Noe y Maya
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Maya
+	 Menú: Infantil
+	 Alergias: Ninguna
+- Canciones: voy a pasármelo bien! hombresg
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Lumi y Juan
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Lumi
+	 Menú: Principal
+	 Alergias: Lactosa,
+	 Nombre: Juan
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: sara perché ti amo - ricchi e poveri
+joaquín sabina - y nos dieron las diez
+joaquín sabina - la del pirata cojo
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Bulo
+- Brunch: Sí
+- Hotel: Sí
+- Menus: 
+	 Nombre: Bulo
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: el bueno el feo y el malo
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Ricardo, Silvia y Alberto
+- Brunch: No
+- Hotel: No
+- Menus: 
+	 Nombre: Ricardo
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Silvia
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Alberto
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: Ninguna
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Silvia, Dani y Candela
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Silvia
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Dani
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Candela
+	 Menú: Infantil
+	 Alergias: Ninguna
+- Canciones: es que ahora no caigo  los ronaldos , no puedo vivir sin ti
+alguna de rozalen, candela seguro que rosalia
+- Comentario: Ninguno
+
+___________________________________________________
+
+
+- Grupo: Encarna y Alvaro
+- Brunch: Sí
+- Hotel: No
+- Menus: 
+	 Nombre: Encarna
+	 Menú: Principal
+	 Alergias: Ninguna,
+	 Nombre: Alvaro
+	 Menú: Principal
+	 Alergias: Ninguna
+- Canciones: diré stray
+rollins
+- Comentario: Juan yo cerveza tostada.
+Es una putada pero lo pasaremos genial😩😩😩
+
+___________________________________________________
+
+LISTA DE CANCIONES 
+
+still loving you de scorpions 
+hoy tengo ganas de ti de alejandro fernsndez
+shivers de ed sheeran
+bruce springsteen - dancing in the  dark
+rolling  stones -  jumping jack flash
+elvis presley in the guetto
+jennifer rush the power of love
+coque malla no puedo vivir sin tu
+andra day rise up
+bon jovi bed of roses
+europe the final countdown
+tina turner rolling on the river
+bisbal dígale
+elvis presley suspicious mind
+bruce springsteen i am on fire
+camilo sesto vivir así es morir de amor
+pablo alboránperdóname
+manuel carrasco ya no
+queen love of my live
+simon díaz caballo viejo
+beatles let it be
+pablo alborán por fin
+beret beso robado
+luis fonsi no me doy por vencido
+tina cousins pray
+song of legends im so excited
+mediterráneo y la charanga
+ana mena y belinda  las 12 
+manuel turizo el merengue
+lola indigo y quevedo el tonto
+los bravos black is black
+nolasco las cosas pequeñitas
+bruno mars locked out of heaven
+suavemente de elvis crespo
+hijos del sol canción peruana con la que nos echamos unas buenas risas
+extremoduro elige tania cualquiera de las que hemos escuchado mil veces en nuestros viajes en coche
+despues de la playa bud bunny
+arranca becky g
+vagabundo sebastian yatra
+la bachata  manuel turizo
+burbujas de amor juan luis guerra
+marea
+fito y fitipaldis
+la fuga 
+dikers corazón de trapo
+chueca es genial
+fisica o quimica - despistaos
+por la boca vive el pez - fito y fitipaldis
+sara perche ti amo - ricchi e poveri
+wrs - llamame
+vitas - seventh element
+opening de la aldea del arce
+el ultimo de la fila - lejos de las leyes de los hombres
+el ultimo dela fila - insurreccion
+star wars - imperial march\nsherlock hound opening
+psy - gangnam style
+roxette - the look
+simply red - if you dont know me by now
+prince - thieves in the temple
+wheesung - i even thought of marriage
+2pm -go crazy
+big bang - fxxk it
+bts - fake love
+dbsk - wrong number
+ftisland - severely
+fly to the sky - 술 alcohol
+forestella - hijo de la luna
+jonghyun - hyeya
+dimash kudaibergen - stranger
+apatruyando la ciudad
+el torito con botones
+opa, yo voy a hace un corrá
+tantum ergo
+kirie eleison
+pange lingual
+este es el día en que actuó el señor
+litros de alcohol
+españa camisa blanca
+cara al sol
+himno de españa
+el novio de la muerte
+y nos vamos pa madrid del barrio
+oliver y benji campeones los del río macarena el rey león hakuna matata el fary torito bravo colin verancombe wonderful life marea corazón de mimbre michael sembello maniac bsb everybody spice girls wannabe mike oldfield moonlight shadow joe cocker you are so beautiful scatman john scatman la abeja maya cabecera coolio gangsta’s paradise mónica naranjo sobreviviré bon jovi it’s my life queen we will rock you queen don’t stop me now joselito la campanera amistades peligrosas me quedaré solo bonnie tyler total eclipse of the heart michael jackson trhiller mecano hijo de la luna gloria gaynor i will survive sia unstoppable imagine dragons believer los fruitis cabecera imagine dragons thunder indila deniere danse karoñ g mientras me curo del corazón corona the rythm of the night john lennon imagine disturbed the sound of silence michael jackson beat it michael jackson earth song beng e king stand by me bruno mars just the way you are withney houston i will always love you shakira suerte the soca boys follow the leader evanesence bring me to life marc anthony vivir mi vida el rey león el musical él vive en ti beyonce halo el chojin ven, ven the fugees killing me softly david el gnomo soy un gnomo lolita sarandonga xtm fly on the wings of love desireeless voayage voayage grease the one that i want safri dup the bongo song nino bravo libre raphael como yo te amo black eye peas where is the love britney spears oops i did it again aqua barbie girl oasis wonderwall camilo sesto melina queen we are the champions queen mama eminem lose yourself pink try christina aguilera beautiful el
+chombo el gato volador las ketchup aseré king áfrica bomba rema calm down mecano hijo de la luna el barrio pa’ madrid la oreja de van gogh geografía pedro guerra contra el poder young paul young love is in the air estopa partiendo la pana mocedades eres tú julio iglesias baila morena marvin gaye and tammi terrell ain’t no mountain high marisol tómbola alejandro sanz no es lo mismo  alejandro sanz, arkano y melendi déjala que baile gloria estefan hoy hevia busindree reel obk el cielo no entiende rocío durcal me gustas mucho nino bravo te quiero, te quiero shakira hips don’t lie james brown i feel good massiel lalala whig field saturday night
+bryan adams - im ready
+chris isaak - wicked game
+los nikis - la fiesta medieval
+zz top - chartreuse
+baile del sapito
+no sé si es para la fiesta, comida, ceremonia… tania ya sabes cualquiera de alejandro sanz y no sé un poco de todo coldplay, regueton o bailables de siempre, pop de ahora, la chivita jajaja
+banda sonora carmina burana
+blas cantó voy a quedarme
+coldplay viva la vida
+madre tierra chayanne
+me quedaré estopa
+ni más ni menos los chichos
+harry styles - as it was,  -  russian red - i hate you but i love you  -  guns and roses - sweet child o’mine
+voy a pasármelo bien! hombresg
+sara perché ti amo - ricchi e poveri
+joaquín sabina - y nos dieron las diez
+joaquín sabina - la del pirata cojo
+el bueno el feo y el malo
+es que ahora no caigo  los ronaldos , no puedo vivir sin ti
+alguna de rozalen, candela seguro que rosalia
+diré stray
+rollins

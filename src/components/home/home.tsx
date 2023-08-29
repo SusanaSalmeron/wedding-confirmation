@@ -10,7 +10,7 @@ interface GroupParams {
     id: string
 }
 
-const Home: FC<HomeProps> = () => {
+export const Home: FC<HomeProps> = () => {
     const navigate = useNavigate()
     const { id } = useParams<keyof GroupParams>() as GroupParams
 

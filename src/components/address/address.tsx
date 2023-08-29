@@ -12,7 +12,7 @@ interface AddressProps {
 
 }
 
-const Address: FC<AddressProps> = (props: AddressProps) => {
+export const Address: FC<AddressProps> = (props: AddressProps) => {
     return (
         <div className={styles.container}>
             <div className={styles.maps}>
@@ -20,6 +20,7 @@ const Address: FC<AddressProps> = (props: AddressProps) => {
                     <h2>{props.description}</h2>
                     <Link to={props.link}>{props.address}</Link>
                     <iframe
+                        data-testid="map"
                         src={props.map}
                         loading="lazy"
                         title={props.title}

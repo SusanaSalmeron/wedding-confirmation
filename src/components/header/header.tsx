@@ -5,7 +5,7 @@ import logo from "../../images/header.png"
 
 interface HeaderProps { }
 
-const Header: FC<HeaderProps> = () => {
+export const Header: FC<HeaderProps> = () => {
     return (
         <div className={styles.header} data-testid="header">
             <header className={styles.logo}>

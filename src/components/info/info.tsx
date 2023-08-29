@@ -5,7 +5,7 @@ import styles from "./info.module.css"
 
 interface InfoProps { }
 
-const Info: FC<InfoProps> = () => {
+export const Info: FC<InfoProps> = () => {
     return (
         <>
             <div className={styles.warning}>

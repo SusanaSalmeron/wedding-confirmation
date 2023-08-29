@@ -43,7 +43,7 @@ const initialValues: InitialValues = {
     comment: ""
 }
 
-const WeddingForm: FC<WeddingFormProps> = () => {
+export const WeddingForm: FC<WeddingFormProps> = () => {
     const isMediumSize = useMedia("(max-width: 1039px)")
     const [guestsMenus, setGuestsMenus] = useState<any>([])
     const [group, setGroup] = useState<Group>({ id: "", group: "", people: [""], size: 0, available: true })

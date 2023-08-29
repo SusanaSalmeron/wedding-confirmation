@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 interface FooterProps { }
 
-const Footer: FC<FooterProps> = () => {
+export const Footer: FC<FooterProps> = () => {
     return (
         <div className={styles.footer} data-testid="footer">
             <footer className={styles.logo}>

@@ -55,7 +55,7 @@ const allergies: Allergies[] = [
 
 if (process.env.NODE_ENV !== "test") ReactModal.setAppElement("#root");
 
-const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
+export const FoodModal: FC<FoodModalProps> = (props: FoodModalProps) => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const [allergiesState, setAllergiesState] = useState(new Array(allergies.length).fill(false))
     const [pendingGuests, setPendingGuests] = useState<string[]>(props.dataGroup.people)
