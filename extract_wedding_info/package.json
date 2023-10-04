@@ -5,14 +5,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "generate": "node generate.js",
+    "search": "node search.js",
+    "create": "node spotifyList.js"
   },
   "author": "Susana Salmeron",
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "3.391.0",
     "@aws-sdk/util-dynamodb": "3.391.0",
-    "handlebars": "4.7.8",
-    "nunjucks": "3.2.4"
+    "nunjucks": "3.2.4",
+    "axios": "1.4.0"
   }
 }

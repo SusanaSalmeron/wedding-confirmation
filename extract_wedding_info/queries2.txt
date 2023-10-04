@@ -82,10 +82,9 @@ Personas que necesitan habitación:
 	 Menú: Principal
 	 Alergias: Ninguna
 - Canciones: still loving you de scorpions 
-hoy tengo ganas de ti de alejandro fernsndez
+hoy tengo ganas de ti de alejandro fernandez
 shivers de ed sheeran
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -101,7 +100,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -112,10 +110,9 @@ ___________________________________________________
 	 Nombre: Nines
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: bruce springsteen - dancing in the  dark
-rolling  stones -  jumping jack flash
+- Canciones: bruce springsteen/dancing in the dark
+rolling stones/jumping jack flash
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -131,7 +128,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -150,7 +146,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -166,7 +161,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -182,7 +176,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -198,7 +191,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -211,7 +203,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: No se lo que es un brunch. La letra es para menores de 40 años.
-
 ___________________________________________________
 
 
@@ -224,7 +215,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -238,29 +228,28 @@ ___________________________________________________
 	 Nombre: Emiliano
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: elvis presley in the guetto
-jennifer rush the power of love
-coque malla no puedo vivir sin tu
-andra day rise up
-bon jovi bed of roses
-europe the final countdown
-tina turner rolling on the river
-bisbal dígale
-elvis presley suspicious mind
-bruce springsteen i am on fire
-camilo sesto vivir así es morir de amor
-pablo alboránperdóname
-manuel carrasco ya no
-queen love of my live
-simon díaz caballo viejo
-beatles let it be
-pablo alborán por fin
-beret beso robado
-luis fonsi no me doy por vencido
-tina cousins pray
-song of legends im so excited
+- Canciones: elvis presley &quot;in the ghetto&quot;
+jennifer rush &quot;the power of love&quot;
+coque malla &quot;no puedo vivir sin ti&quot;
+andra day &quot;rise up&quot;
+bon jovi &quot;bed of roses&quot;
+europe &quot;the final countdown&quot;
+tina turner &quot;proud mary&quot;
+bisbal &quot;dígale&quot;
+elvis presley &quot;suspicious minds&quot;
+bruce springsteen &quot;i&#39;m on fire&quot;
+camilo sesto &quot;vivir así es morir de amor&quot;
+pablo alborán&quot;perdóname&quot;
+manuel carrasco &quot;ya no&quot;
+queen &quot;love of my life&quot;
+simon díaz &quot;caballo viejo&quot;
+beatles &quot;let it be&quot;
+pablo alborán &quot;por fin&quot;
+beret &quot;beso robado&quot;
+luis fonsi &quot;no me doy por vencido&quot;
+tina cousins &quot;pray&quot;
+pointer sisters &quot;i&#39;m so excited&quot;
 - Comentario: Nos lo vamos a pasar tetaaaaaaaa!!!!
-
 ___________________________________________________
 
 
@@ -271,9 +260,9 @@ ___________________________________________________
 	 Nombre: Padel
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: mediterráneo y la charanga
+- Canciones: joan manel serrat - mediterráneo
+juan pardo - la charanga
 - Comentario: Fundamental para mi dieta : percebes , andaricas y mucha cerveza
-
 ___________________________________________________
 
 
@@ -289,7 +278,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -302,7 +290,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -322,14 +309,13 @@ ___________________________________________________
 	 Nombre: Maxi
 	 Menú: Infantil
 	 Alergias: Ninguna
-- Canciones: ana mena y belinda  las 12 
-manuel turizo el merengue
-lola indigo y quevedo el tonto
-los bravos black is black
-nolasco las cosas pequeñitas
-bruno mars locked out of heaven
+- Canciones: ana mena y belinda (las 12)
+manuel turizo (el merengue)
+lola indigo y quevedo (el tonto)
+los bravos (black is black)
+nolasco (las cosas pequeñitas)
+bruno mars (locked out of heaven)
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -342,7 +328,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -358,7 +343,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -372,11 +356,10 @@ ___________________________________________________
 	 Nombre: Iñigo
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: suavemente de elvis crespo
-hijos del sol canción peruana con la que nos echamos unas buenas risas
-extremoduro elige tania cualquiera de las que hemos escuchado mil veces en nuestros viajes en coche
+- Canciones: elvis crespo (suavemente)
+hijos del sol (cariñito)
+extremoduro (extremaydura)
 - Comentario: ¡Claudia y Elvira si no cambia nada se quedan en casita! Haremos videollamada para que vean lo bien que lo estamos pasando con esta pareja chula.
-
 ___________________________________________________
 
 
@@ -389,7 +372,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -403,17 +385,13 @@ ___________________________________________________
 	 Nombre: Carlos
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: despues de la playa bud bunny
-arranca becky g
-vagabundo sebastian yatra
-la bachata  manuel turizo
-burbujas de amor juan luis guerra
-marea
-fito y fitipaldis
-la fuga 
-dikers corazón de trapo
+- Canciones: después de la playa_ bad bunny
+arranca (feat.omega)_ becky g
+vagabundo_ sebastian yatra
+la bachata_ manuel turizo
+burbujas de amor_ juan luis guerra
+corazón de trapo_ dikers
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -424,9 +402,8 @@ ___________________________________________________
 	 Nombre: Paco Josma
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: chueca es genial
+- Canciones: kika lorace - chueca es genial
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -442,7 +419,6 @@ ___________________________________________________
 	 Alergias: Lactosa
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -464,7 +440,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -478,11 +453,18 @@ ___________________________________________________
 	 Nombre: Juan
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: fisica o quimica - despistaos
-por la boca vive el pez - fito y fitipaldis
-sara perche ti amo - ricchi e poveri
+- Canciones: despistaos - física o química
+ fito y fitipaldis - por la boca vive el pez
+ricchi e poveri - sara perche ti amo
+dawn - tie a yellow ribbon round the ole oak tree
+bee gees - how can you mend a broken heart
+john denver - take me home country roads
+rolling stones - brown sugar
+pink floyd - another brick on the wall
+stevie wonder - just called to say i love you
+vangelis - chariots of fire
+bryan adams - have you ever really loved a woman
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -498,7 +480,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -512,28 +493,62 @@ ___________________________________________________
 	 Nombre: Susana
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: wrs - llamame
-vitas - seventh element
-opening de la aldea del arce
+- Canciones: wrs - llámame
+vitas - 7 элемент
+nins - la aldea de arce
 el ultimo de la fila - lejos de las leyes de los hombres
-el ultimo dela fila - insurreccion
-star wars - imperial march&#92;nsherlock hound opening
+el último dela fila - insurrección
+star wars - imperial march
+sesam-o - sherlock holmes
 psy - gangnam style
 roxette - the look
-simply red - if you dont know me by now
+simply red - if you don&#39;t know me by now
 prince - thieves in the temple
-wheesung - i even thought of marriage
-2pm -go crazy
-big bang - fxxk it
-bts - fake love
-dbsk - wrong number
+realslow - cry cry cry
+2pm - go crazy!
+bigbang - fxxk it
+bts - dynamite
 ftisland - severely
-fly to the sky - 술 alcohol
+fly to the sky - 술
 forestella - hijo de la luna
-jonghyun - hyeya
+shinee - y si fuera ella
 dimash kudaibergen - stranger
+rick astley - never gonna give you up
+the bangles - walk like an egiptian
+limahl - never ending story
+color me badd - i wanna sex you up
+tom jones - sexbomb
+terence trent d&#39;arby - delicate
+yes - owner of a lonely heart
+whitesnake - is this love
+seal - kiss from a rose
+shaggy - boombastic
+shohai - te pone bien
+new order - blue monday
+new order - true fate
+daft punk - get lucky
+bruno mars - that&#39;s what i like
+bruno mars - finesse(remix) feat cardi b
+chanel - slowmo
+subwolfer - give that wolf a banana
+dr dre - the next episode
+siouxsie and the banshees - spellbound
+aha - take on me
+inxs - need you tonight
+madonna - material girl
+kenny loggins - footloose
+lips inc - funkytown
+wham - wake me up before you go-go
+pet shop boys - west end girls
+tino casal - eloise
+falco - amadeus
+hyuey lewis and the news - hip to be square
+david bowie - let&#39;s dance remix 2018
+golpes bajos - malos tiempos para la lirica
+radio futura - escuela de calor
+tino casal - embrujada
+tennessee - rama lama
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -544,11 +559,9 @@ ___________________________________________________
 	 Nombre: Emilio
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: apatruyando la ciudad
-el torito con botones
-opa, yo voy a hace un corrá
+- Canciones: el fary - apatrullando la ciudad
+el koala - opa yo viaze un corra
 - Comentario: Juan, mariconadas las justas
-
 ___________________________________________________
 
 
@@ -561,7 +574,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -582,7 +594,6 @@ cara al sol
 himno de españa
 el novio de la muerte
 - Comentario: Sería bueno rezar el rosario de la aurora antes del brunch
-
 ___________________________________________________
 
 
@@ -593,9 +604,8 @@ ___________________________________________________
 	 Nombre: Leo
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: y nos vamos pa madrid del barrio
+- Canciones: del barrio (y nos vamos pa madrid)
 - Comentario: Me encanta la pareja que se casa,son muy guapos!!!
-
 ___________________________________________________
 
 
@@ -609,10 +619,8 @@ ___________________________________________________
 	 Nombre: Aminta
 	 Menú: Veggie
 	 Alergias: Ninguna
-- Canciones: oliver y benji campeones los del río macarena el rey león hakuna matata el fary torito bravo colin verancombe wonderful life marea corazón de mimbre michael sembello maniac bsb everybody spice girls wannabe mike oldfield moonlight shadow joe cocker you are so beautiful scatman john scatman la abeja maya cabecera coolio gangsta’s paradise mónica naranjo sobreviviré bon jovi it’s my life queen we will rock you queen don’t stop me now joselito la campanera amistades peligrosas me quedaré solo bonnie tyler total eclipse of the heart michael jackson trhiller mecano hijo de la luna gloria gaynor i will survive sia unstoppable imagine dragons believer los fruitis cabecera imagine dragons thunder indila deniere danse karoñ g mientras me curo del corazón corona the rythm of the night john lennon imagine disturbed the sound of silence michael jackson beat it michael jackson earth song beng e king stand by me bruno mars just the way you are withney houston i will always love you shakira suerte the soca boys follow the leader evanesence bring me to life marc anthony vivir mi vida el rey león el musical él vive en ti beyonce halo el chojin ven, ven the fugees killing me softly david el gnomo soy un gnomo lolita sarandonga xtm fly on the wings of love desireeless voayage voayage grease the one that i want safri dup the bongo song nino bravo libre raphael como yo te amo black eye peas where is the love britney spears oops i did it again aqua barbie girl oasis wonderwall camilo sesto melina queen we are the champions queen mama eminem lose yourself pink try christina aguilera beautiful el
-chombo el gato volador las ketchup aseré king áfrica bomba rema calm down mecano hijo de la luna el barrio pa’ madrid la oreja de van gogh geografía pedro guerra contra el poder young paul young love is in the air estopa partiendo la pana mocedades eres tú julio iglesias baila morena marvin gaye and tammi terrell ain’t no mountain high marisol tómbola alejandro sanz no es lo mismo  alejandro sanz, arkano y melendi déjala que baile gloria estefan hoy hevia busindree reel obk el cielo no entiende rocío durcal me gustas mucho nino bravo te quiero, te quiero shakira hips don’t lie james brown i feel good massiel lalala whig field saturday night
+- Canciones: parchis: campeones. los del río: macarena. marc pociello: hakuna matata. el fary: el toro guapo. colin vearncombe: wonderful life. marea: corazón de mimbre. michael sembello: maniac. bsb: everybody. spice girls: wannabe. mike oldfield: moonlight shadow. joe cocker: you are so beautiful. scatman: scatman (ski-ba-bop-ba-dop-bop). la abeja maya: la abeja maya. coolio: gangsta&#39;s paradise. mónica naranjo: sobreviviré. bon jovi: it&#39;s my life. queen: we will rock you. queen: don&#39;t stop me now. joselito: campanera. amistades peligrosas: me quedaré solo. bonnie tyler: total eclipse of the heart. michael jackson: thriller. mecano: hijo de la luna. gloria gaynor: i will survive. sia: unstoppable. imagine dragons: believer. cuadro sonoro children&#39;s films studio: los fruitis. imagine dragons: thunder. indila: dernière danse. karol g: mientras me curo del cora. corona: the rythm of the night. john lennon: imagine. disturbed: the sound of silence. michael jackson: beat it. michael jackson: earth song. ben e king: stand by me. bruno mars: just the way you are. whitney houston: i will always love you. shakira: suerte (whenever, wherever). the soca boys: follow the leader. evanescence: bring me to life. marc anthony: vivir mi vida. adrian barba: él vive en ti. beyonce: halo. el chojin: ven, ven. the fugees: killing me softly (fugees). los gnomos: soy un gnomo. lolita: sarandonga. xtm: fly on the wings of love - 2011 radio edit. desireless: voyage voyage. grease: you are the one that i want. safri duo: played-a-live (the bongo song). nino bravo: libre. raphael: como yo te amo. black eye peas: where is the love?. britney spears: oops! i did it again. aqua: barbie girl. oasis: wonderwall. camilo sesto: melina. queen: we are the champions. queen: bohemian rhapsody. eminem: lose yourself. p!nk: try: christina aguilera: beautiful. el chombo: el gato volador. las ketchup: the ketchup song (aserejé). king áfrica: la bomba. rema: calm down. mecano: hijo de la luna. el barrio: pa’madrid. la oreja de van gogh: geografía. pedro guerra: contra el poder. young paul young: love is in the air. estopa: partiendo la pana. mocedades: eres tú. julio iglesias: baila morena. marvin gaye: ain’t no mountain high enough. marisol: tómbola. alejandro sanz: no es lo mismo.  melendi: déjala que baile (with alejandro sanz &amp; arkano). gloria estefan: hoy. hevia: busindre reel. obk: el cielo no entiende. rocío durcal: me gustas mucho. nino bravo: te quiero, te quiero. shakira: hips don&#39;t lie (feat wyclef jean). james brown: i got you (i feel good). massiel: la, la, la. whigfield: saturday night.
 - Comentario: To pro y bonita la invitación 😎
-
 ___________________________________________________
 
 
@@ -623,12 +631,11 @@ ___________________________________________________
 	 Nombre: Miguel
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: bryan adams - im ready
-chris isaak - wicked game
+- Canciones: chris isaak - wicked game
 los nikis - la fiesta medieval
 zz top - chartreuse
+bryan adams - i&#39;m ready
 - Comentario: Voy yo solo. Mariluz no. Tengo intolerancia al pacharán.
-
 ___________________________________________________
 
 
@@ -639,9 +646,11 @@ ___________________________________________________
 	 Nombre: Mamá
 	 Menú: Principal
 	 Alergias: Moluscos,Marisco,Pescado
-- Canciones: baile del sapito
+- Canciones: el reino infantil - el baile del sapito
+coyote dax - no rompas mi corazon
+julio iglesias - bamboleo
+master kg - jerusalema
 - Comentario: Cómo petición personal,pido a cambio del marisco y pescado,que haya chistorra para mi,
-
 ___________________________________________________
 
 
@@ -657,7 +666,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: no sé si es para la fiesta, comida, ceremonia… tania ya sabes cualquiera de alejandro sanz y no sé un poco de todo coldplay, regueton o bailables de siempre, pop de ahora, la chivita jajaja
 - Comentario: ¿Cómo sois así de máquinas? Me quedo flipada!
-
 ___________________________________________________
 
 
@@ -668,11 +676,10 @@ ___________________________________________________
 	 Nombre: Inma
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: banda sonora carmina burana
-blas cantó voy a quedarme
-coldplay viva la vida
+- Canciones: carmina burana: banda sonora .
+blas cantó: voy a quedarme.
+coldplay: viva la vida
 - Comentario: Estoy preparada para degustar todas las delicatessen que va a haber en esta boda tan chachi
-
 ___________________________________________________
 
 
@@ -685,7 +692,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -698,7 +704,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -711,7 +716,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -725,11 +729,10 @@ ___________________________________________________
 	 Nombre: Carlos
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: madre tierra chayanne
-me quedaré estopa
-ni más ni menos los chichos
+- Canciones: chayanne (madre tierra)
+estopa (me quedaré)
+los chichos (ni más ni menos)
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -743,9 +746,8 @@ ___________________________________________________
 	 Nombre: Sergi
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: harry styles - as it was,  -  russian red - i hate you but i love you  -  guns and roses - sweet child o’mine
+- Canciones: harry styles - as it was / russian red - i hate you but i love you / guns and roses - sweet child o&#39; mine
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -758,7 +760,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: voy a pasármelo bien! hombresg
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -772,11 +773,11 @@ ___________________________________________________
 	 Nombre: Juan
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: sara perché ti amo - ricchi e poveri
-joaquín sabina - y nos dieron las diez
-joaquín sabina - la del pirata cojo
+- Canciones: &#39;sara perché ti amo&#39; - ricchi e poveri
+ &#39;y nos dieron las diez&#39; - joaquín sabina
+&#39;la del pirata cojo&#39; - joaquín sabina
+&#39;que todas las noches sean noches de boda&#39; - joaquin sabina con chavela vargas
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -787,9 +788,9 @@ ___________________________________________________
 	 Nombre: Bulo
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: el bueno el feo y el malo
+- Canciones: peter bjorn and john - young folks
+ratas blancas - la leyenda del hada y el mago
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -808,7 +809,6 @@ ___________________________________________________
 	 Alergias: Ninguna
 - Canciones: Ninguna
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -825,10 +825,9 @@ ___________________________________________________
 	 Nombre: Candela
 	 Menú: Infantil
 	 Alergias: Ninguna
-- Canciones: es que ahora no caigo  los ronaldos , no puedo vivir sin ti
-alguna de rozalen, candela seguro que rosalia
+- Canciones: es que ahora no caigo...  los ronaldos , no puedo vivir sin ti.
+alguna de rozalen., candela seguro que rosalia
 - Comentario: Ninguno
-
 ___________________________________________________
 
 
@@ -842,118 +841,9 @@ ___________________________________________________
 	 Nombre: Alvaro
 	 Menú: Principal
 	 Alergias: Ninguna
-- Canciones: diré stray
-rollins
+- Canciones: dire straits - sultans of swings
+the rolling stones - satisfaction
 - Comentario: Juan yo cerveza tostada.
 Es una putada pero lo pasaremos genial😩😩😩
-
 ___________________________________________________
 
-LISTA DE CANCIONES 
-
-still loving you de scorpions 
-hoy tengo ganas de ti de alejandro fernsndez
-shivers de ed sheeran
-bruce springsteen - dancing in the  dark
-rolling  stones -  jumping jack flash
-elvis presley in the guetto
-jennifer rush the power of love
-coque malla no puedo vivir sin tu
-andra day rise up
-bon jovi bed of roses
-europe the final countdown
-tina turner rolling on the river
-bisbal dígale
-elvis presley suspicious mind
-bruce springsteen i am on fire
-camilo sesto vivir así es morir de amor
-pablo alboránperdóname
-manuel carrasco ya no
-queen love of my live
-simon díaz caballo viejo
-beatles let it be
-pablo alborán por fin
-beret beso robado
-luis fonsi no me doy por vencido
-tina cousins pray
-song of legends im so excited
-mediterráneo y la charanga
-ana mena y belinda  las 12 
-manuel turizo el merengue
-lola indigo y quevedo el tonto
-los bravos black is black
-nolasco las cosas pequeñitas
-bruno mars locked out of heaven
-suavemente de elvis crespo
-hijos del sol canción peruana con la que nos echamos unas buenas risas
-extremoduro elige tania cualquiera de las que hemos escuchado mil veces en nuestros viajes en coche
-despues de la playa bud bunny
-arranca becky g
-vagabundo sebastian yatra
-la bachata  manuel turizo
-burbujas de amor juan luis guerra
-marea
-fito y fitipaldis
-la fuga 
-dikers corazón de trapo
-chueca es genial
-fisica o quimica - despistaos
-por la boca vive el pez - fito y fitipaldis
-sara perche ti amo - ricchi e poveri
-wrs - llamame
-vitas - seventh element
-opening de la aldea del arce
-el ultimo de la fila - lejos de las leyes de los hombres
-el ultimo dela fila - insurreccion
-star wars - imperial march\nsherlock hound opening
-psy - gangnam style
-roxette - the look
-simply red - if you dont know me by now
-prince - thieves in the temple
-wheesung - i even thought of marriage
-2pm -go crazy
-big bang - fxxk it
-bts - fake love
-dbsk - wrong number
-ftisland - severely
-fly to the sky - 술 alcohol
-forestella - hijo de la luna
-jonghyun - hyeya
-dimash kudaibergen - stranger
-apatruyando la ciudad
-el torito con botones
-opa, yo voy a hace un corrá
-tantum ergo
-kirie eleison
-pange lingual
-este es el día en que actuó el señor
-litros de alcohol
-españa camisa blanca
-cara al sol
-himno de españa
-el novio de la muerte
-y nos vamos pa madrid del barrio
-oliver y benji campeones los del río macarena el rey león hakuna matata el fary torito bravo colin verancombe wonderful life marea corazón de mimbre michael sembello maniac bsb everybody spice girls wannabe mike oldfield moonlight shadow joe cocker you are so beautiful scatman john scatman la abeja maya cabecera coolio gangsta’s paradise mónica naranjo sobreviviré bon jovi it’s my life queen we will rock you queen don’t stop me now joselito la campanera amistades peligrosas me quedaré solo bonnie tyler total eclipse of the heart michael jackson trhiller mecano hijo de la luna gloria gaynor i will survive sia unstoppable imagine dragons believer los fruitis cabecera imagine dragons thunder indila deniere danse karoñ g mientras me curo del corazón corona the rythm of the night john lennon imagine disturbed the sound of silence michael jackson beat it michael jackson earth song beng e king stand by me bruno mars just the way you are withney houston i will always love you shakira suerte the soca boys follow the leader evanesence bring me to life marc anthony vivir mi vida el rey león el musical él vive en ti beyonce halo el chojin ven, ven the fugees killing me softly david el gnomo soy un gnomo lolita sarandonga xtm fly on the wings of love desireeless voayage voayage grease the one that i want safri dup the bongo song nino bravo libre raphael como yo te amo black eye peas where is the love britney spears oops i did it again aqua barbie girl oasis wonderwall camilo sesto melina queen we are the champions queen mama eminem lose yourself pink try christina aguilera beautiful el
-chombo el gato volador las ketchup aseré king áfrica bomba rema calm down mecano hijo de la luna el barrio pa’ madrid la oreja de van gogh geografía pedro guerra contra el poder young paul young love is in the air estopa partiendo la pana mocedades eres tú julio iglesias baila morena marvin gaye and tammi terrell ain’t no mountain high marisol tómbola alejandro sanz no es lo mismo  alejandro sanz, arkano y melendi déjala que baile gloria estefan hoy hevia busindree reel obk el cielo no entiende rocío durcal me gustas mucho nino bravo te quiero, te quiero shakira hips don’t lie james brown i feel good massiel lalala whig field saturday night
-bryan adams - im ready
-chris isaak - wicked game
-los nikis - la fiesta medieval
-zz top - chartreuse
-baile del sapito
-no sé si es para la fiesta, comida, ceremonia… tania ya sabes cualquiera de alejandro sanz y no sé un poco de todo coldplay, regueton o bailables de siempre, pop de ahora, la chivita jajaja
-banda sonora carmina burana
-blas cantó voy a quedarme
-coldplay viva la vida
-madre tierra chayanne
-me quedaré estopa
-ni más ni menos los chichos
-harry styles - as it was,  -  russian red - i hate you but i love you  -  guns and roses - sweet child o’mine
-voy a pasármelo bien! hombresg
-sara perché ti amo - ricchi e poveri
-joaquín sabina - y nos dieron las diez
-joaquín sabina - la del pirata cojo
-el bueno el feo y el malo
-es que ahora no caigo  los ronaldos , no puedo vivir sin ti
-alguna de rozalen, candela seguro que rosalia
-diré stray
-rollins

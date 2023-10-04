@@ -1,0 +1,27 @@
+MENU PRINCIPAL CON ALERGIAS 
+
+- Nombre: Pilar
+- Alergias: Lactosa,Gluten
+__________________________________________________
+
+- Nombre: Ana
+- Alergias: F.secos,Cacahue.
+__________________________________________________
+
+- Nombre: Mamá
+- Alergias: Moluscos,Marisco,Pescado
+__________________________________________________
+
+- Nombre: Lumi
+- Alergias: Lactosa
+__________________________________________________
+
+MENU INFANTIL CON ALERGIAS 
+
+- Nombre: Esther
+- Alergias: Lactosa
+__________________________________________________
+
+- Nombre: Pablo
+- Alergias: Lactosa
+__________________________________________________
