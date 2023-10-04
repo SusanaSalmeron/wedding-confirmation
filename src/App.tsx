@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer";
 import OptionsForm from "./components/weddingForm/weddingForm";
 import InfoMessage from "./components/infoMessage/infoMessage";
 import Info from "./components/info/info";
+import { NewHome } from "./components/newHome/newHome";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/congrats" element={<InfoMessage message="Gracias por indicarnos que vas/vais a asistir" image="https://media.giphy.com/media/jd6TVgsph6w7e/giphy.gif" alt="happy" link="/info" email="" />} />
         <Route path="/thanks" element={<InfoMessage message={`Gracias por indicarnos que no vais a asistir, si cambiáis de opinión podéis llamar al 672 217 578 o bien escribir a `}
           image="https://media.giphy.com/media/l1uggWFeBZ47ZSGre/giphy.gif" alt="bye" link="" email="bodatyj071023@gmail" />} />
+        <Route path="/newHome" element={<NewHome />} />
       </Routes>
       <Footer />
     </div>
